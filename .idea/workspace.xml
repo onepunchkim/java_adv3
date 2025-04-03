@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lambda/Procedure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/start/Ex1Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/start/Ex1RefMainV1.java" afterDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="lambda start">
+      <change afterPath="$PROJECT_DIR$/src/lambda/start/Ex1RefMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/start/Ex1RefMainV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/start/Ex1RefMainV4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/start/Ex1RefMainV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/start/Ex1RefMainV1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +42,9 @@
     "Application.Ex0RefMain.executor": "Run",
     "Application.Ex1Main.executor": "Run",
     "Application.Ex1RefMainV1.executor": "Run",
+    "Application.Ex1RefMainV2.executor": "Run",
+    "Application.Ex1RefMainV3.executor": "Run",
+    "Application.Ex1RefMainV4.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -53,20 +57,7 @@
       <recent name="lambda.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex1RefMainV1">
-    <configuration name="Ex0RefMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.start.Ex0RefMain" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.start.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Ex1RefMainV4">
     <configuration name="Ex1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.start.Ex1Main" />
       <module name="java-adv3" />
@@ -93,27 +84,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="Ex1RefMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.start.Ex1RefMainV2" />
       <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
+    <configuration name="Ex1RefMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.start.Ex1RefMainV3" />
       <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex1RefMainV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.start.Ex1RefMainV4" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex1RefMainV4" />
+        <item itemvalue="Application.Ex1RefMainV3" />
+        <item itemvalue="Application.Ex1RefMainV2" />
         <item itemvalue="Application.Ex1RefMainV1" />
         <item itemvalue="Application.Ex1Main" />
-        <item itemvalue="Application.Ex0RefMain" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +149,20 @@
       <option name="presentableId" value="Default" />
       <updated>1743650265160</updated>
     </task>
+    <task id="LOCAL-00001" summary="lambda start">
+      <option name="closed" value="true" />
+      <created>1743662021702</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743662021702</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lambda start" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda start" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
