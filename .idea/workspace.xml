@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="lambda">
-      <change afterPath="$PROJECT_DIR$/src/lambda/ex1/M1After.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/ex1/M1Before.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/ex1/M2After.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/ex1/M2Before.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/ex1/M3MeasureTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/ex1/M4MeasureTime.java" afterDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="lambda start">
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex1/M5Return.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-03__11_34__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-03__11_34__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,18 +25,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;onepunchkim&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/onepunchkim/java_adv3.git&quot;,
-    &quot;accountId&quot;: &quot;c350b8e6-b95a-4737-a64f-597c4d1ca9e2&quot;
-  }
-}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -51,42 +35,33 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Ex0Main.executor": "Run",
-    "Application.Ex0RefMain.executor": "Run",
-    "Application.InstanceMain.executor": "Run",
-    "Application.LambdaPassMain1.executor": "Run",
-    "Application.LambdaPassMain2.executor": "Run",
-    "Application.LambdaPassMain3.executor": "Run",
-    "Application.LambdaSimple1.executor": "Run",
-    "Application.LambdaSimple2.executor": "Run",
-    "Application.LambdaSimple3.executor": "Run",
-    "Application.LambdaSimple4.executor": "Run",
-    "Application.M1After.executor": "Run",
-    "Application.M1Before.executor": "Run",
-    "Application.M2After.executor": "Run",
-    "Application.M2Before.executor": "Run",
-    "Application.M3MeasureTime.executor": "Run",
-    "Application.ProcedureMain2.executor": "Run",
-    "Application.SamMain.executor": "Run",
-    "Application.test.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/gurwl/java_practice/java-adv3/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Ex0RefMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ex1Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ex1RefMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ex1RefMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ex1RefMainV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ex1RefMainV4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyFunctionMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProcedureMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProcedureMain2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/gurwl/java_practice/java-adv3/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lambda.lambda1" />
       <recent name="lambda.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.M3MeasureTime">
-    <configuration name="M1After" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex1.M1After" />
+  <component name="RunManager" selected="Application.M5Return">
+    <configuration name="M5Return" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex1.M5Return" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
@@ -98,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M1Before" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex1.M1Before" />
+    <configuration name="MyFunctionMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda1.MyFunctionMain1" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.ex1.*" />
+          <option name="PATTERN" value="lambda.lambda1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M2After" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex1.M2After" />
+    <configuration name="MyFunctionMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda1.MyFunctionMain2" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.ex1.*" />
+          <option name="PATTERN" value="lambda.lambda1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M2Before" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex1.M2Before" />
+    <configuration name="ProcedureMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda1.ProcedureMain1" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.ex1.*" />
+          <option name="PATTERN" value="lambda.lambda1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M3MeasureTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex1.M3MeasureTime" />
+    <configuration name="ProcedureMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda1.ProcedureMain2" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.ex1.*" />
+          <option name="PATTERN" value="lambda.lambda1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,13 +127,20 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.M3MeasureTime" />
-        <item itemvalue="Application.M2After" />
-        <item itemvalue="Application.M2Before" />
-        <item itemvalue="Application.M1After" />
-        <item itemvalue="Application.M1Before" />
+        <item itemvalue="Application.M5Return" />
+        <item itemvalue="Application.MyFunctionMain2" />
+        <item itemvalue="Application.MyFunctionMain1" />
+        <item itemvalue="Application.ProcedureMain2" />
+        <item itemvalue="Application.ProcedureMain1" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -169,70 +151,28 @@
       <option name="presentableId" value="Default" />
       <updated>1743650265160</updated>
     </task>
-    <task id="LOCAL-00001" summary="lambda">
+    <task id="LOCAL-00001" summary="lambda start">
       <option name="closed" value="true" />
-      <created>1743732711883</created>
+      <created>1743662021702</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1743732711883</updated>
+      <updated>1743662021702</updated>
     </task>
-    <task id="LOCAL-00002" summary="FunctionalInterface">
+    <task id="LOCAL-00002" summary="lambda start">
       <option name="closed" value="true" />
-      <created>1743734012286</created>
+      <created>1743662927093</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1743734012286</updated>
+      <updated>1743662927093</updated>
     </task>
-    <task id="LOCAL-00003" summary="FunctionalInterface">
-      <option name="closed" value="true" />
-      <created>1743734038828</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1743734038828</updated>
-    </task>
-    <task id="LOCAL-00004" summary="lambda single expression">
-      <option name="closed" value="true" />
-      <created>1743734957304</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1743734957304</updated>
-    </task>
-    <task id="LOCAL-00005" summary="lambda single expression">
-      <option name="closed" value="true" />
-      <created>1743735375707</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1743735375707</updated>
-    </task>
-    <task id="LOCAL-00006" summary="lambda single expression">
-      <option name="closed" value="true" />
-      <created>1743735460304</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1743735460304</updated>
-    </task>
-    <task id="LOCAL-00007" summary="lambda">
-      <option name="closed" value="true" />
-      <created>1743737856207</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1743737856207</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="FunctionalInterface" />
-    <MESSAGE value="lambda single expression" />
-    <MESSAGE value="lambda" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda" />
+    <MESSAGE value="lambda start" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda start" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
