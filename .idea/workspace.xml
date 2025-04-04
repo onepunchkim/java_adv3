@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="lambda ex1">
-      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/FilterExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/FilterExampleEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/FilterExampleEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/MapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/MyPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/StringFunction.java" afterDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="lambda ex2">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/BuildGreeterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/ComposeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/ComposeExampleEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/MyReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/MyTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/ReduceExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +42,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BuildGreeterExample.executor": "Run",
+    "Application.ComposeExample.executor": "Run",
+    "Application.ComposeExampleEx1.executor": "Run",
     "Application.Ex0RefMain.executor": "Run",
     "Application.Ex1Main.executor": "Run",
     "Application.Ex1RefMainV1.executor": "Run",
@@ -56,8 +60,10 @@
     "Application.MyFunctionMain1.executor": "Run",
     "Application.ProcedureMain1.executor": "Run",
     "Application.ProcedureMain2.executor": "Run",
+    "Application.ReduceExample.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/gurwl/java_practice/java-adv3/src/Main.java"
@@ -70,9 +76,9 @@
       <recent name="lambda.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MapExample">
-    <configuration name="FilterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex2.FilterExample" />
+  <component name="RunManager" selected="Application.ComposeExampleEx1">
+    <configuration name="BuildGreeterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex2.BuildGreeterExample" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterExampleEx1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex2.FilterExampleEx1" />
+    <configuration name="ComposeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex2.ComposeExample" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
@@ -97,21 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterExampleEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex2.FilterExampleEx1" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.ex2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FilterExampleEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex2.FilterExampleEx2" />
+    <configuration name="ComposeExampleEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex2.ComposeExampleEx1" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
@@ -136,13 +129,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReduceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex2.ReduceExample" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.ex2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComposeExampleEx1" />
+        <item itemvalue="Application.ComposeExample" />
+        <item itemvalue="Application.BuildGreeterExample" />
+        <item itemvalue="Application.ReduceExample" />
         <item itemvalue="Application.MapExample" />
-        <item itemvalue="Application.FilterExampleEx2" />
-        <item itemvalue="Application.FilterExampleEx1 (1)" />
-        <item itemvalue="Application.FilterExampleEx1" />
-        <item itemvalue="Application.FilterExample" />
       </list>
     </recent_temporary>
   </component>
@@ -186,13 +192,22 @@
       <option name="project" value="LOCAL" />
       <updated>1743746571847</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lambda ex2">
+      <option name="closed" value="true" />
+      <created>1743748053972</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743748053972</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lambda start" />
     <MESSAGE value="lambda ex1" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda ex1" />
+    <MESSAGE value="lambda ex2" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda ex2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
