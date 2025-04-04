@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="lambda single expression">
-      <change afterPath="$PROJECT_DIR$/src/lambda/LambdaSimple4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda1/LambdaSimple3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda2/LambdaPassMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda2/LambdaPassMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda2/LambdaPassMain3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +53,9 @@
     "Application.Ex0Main.executor": "Run",
     "Application.Ex0RefMain.executor": "Run",
     "Application.InstanceMain.executor": "Run",
+    "Application.LambdaPassMain1.executor": "Run",
+    "Application.LambdaPassMain2.executor": "Run",
+    "Application.LambdaPassMain3.executor": "Run",
     "Application.LambdaSimple1.executor": "Run",
     "Application.LambdaSimple2.executor": "Run",
     "Application.LambdaSimple3.executor": "Run",
@@ -72,13 +76,13 @@
       <recent name="lambda.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LambdaSimple4">
-    <configuration name="LambdaSimple1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda1.LambdaSimple1" />
+  <component name="RunManager" selected="Application.LambdaPassMain3">
+    <configuration name="LambdaPassMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda2.LambdaPassMain1" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda1.*" />
+          <option name="PATTERN" value="lambda.lambda2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +90,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaSimple2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda1.LambdaSimple2" />
+    <configuration name="LambdaPassMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda2.LambdaPassMain2" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda1.*" />
+          <option name="PATTERN" value="lambda.lambda2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaPassMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda2.LambdaPassMain3" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,26 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda1.SamMain" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.lambda1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaPassMain3" />
+        <item itemvalue="Application.LambdaPassMain2" />
+        <item itemvalue="Application.LambdaPassMain1" />
         <item itemvalue="Application.LambdaSimple4" />
         <item itemvalue="Application.LambdaSimple3" />
-        <item itemvalue="Application.LambdaSimple2" />
-        <item itemvalue="Application.LambdaSimple1" />
-        <item itemvalue="Application.SamMain" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +193,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743734957304</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lambda single expression">
+      <option name="closed" value="true" />
+      <created>1743735375707</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743735375707</updated>
+    </task>
+    <task id="LOCAL-00006" summary="lambda single expression">
+      <option name="closed" value="true" />
+      <created>1743735460304</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743735460304</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
