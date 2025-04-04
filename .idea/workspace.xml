@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="lambda start">
-      <change afterPath="$PROJECT_DIR$/src/lambda/ex1/M5Return.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-03__11_34__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-03__11_34__Changes_.xml" afterDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="lambda ex1">
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/FilterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/FilterExampleEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/FilterExampleEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/MapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/MyPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/StringFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,37 +39,44 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Ex0RefMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ex1Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ex1RefMainV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ex1RefMainV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ex1RefMainV3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ex1RefMainV4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyFunctionMain1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProcedureMain1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProcedureMain2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/gurwl/java_practice/java-adv3/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Ex0RefMain.executor": "Run",
+    "Application.Ex1Main.executor": "Run",
+    "Application.Ex1RefMainV1.executor": "Run",
+    "Application.Ex1RefMainV2.executor": "Run",
+    "Application.Ex1RefMainV3.executor": "Run",
+    "Application.Ex1RefMainV4.executor": "Run",
+    "Application.FilterExample.executor": "Run",
+    "Application.FilterExampleEx1 (1).executor": "Run",
+    "Application.FilterExampleEx1.executor": "Run",
+    "Application.FilterExampleEx2.executor": "Run",
+    "Application.M5Return.executor": "Run",
+    "Application.MapExample.executor": "Run",
+    "Application.MyFunctionMain1.executor": "Run",
+    "Application.ProcedureMain1.executor": "Run",
+    "Application.ProcedureMain2.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/gurwl/java_practice/java-adv3/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lambda.ex2" />
       <recent name="lambda.lambda1" />
       <recent name="lambda.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.M5Return">
-    <configuration name="M5Return" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex1.M5Return" />
+  <component name="RunManager" selected="Application.MapExample">
+    <configuration name="FilterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex2.FilterExample" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.ex1.*" />
+          <option name="PATTERN" value="lambda.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyFunctionMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda1.MyFunctionMain1" />
+    <configuration name="FilterExampleEx1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex2.FilterExampleEx1" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda1.*" />
+          <option name="PATTERN" value="lambda.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyFunctionMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda1.MyFunctionMain2" />
+    <configuration name="FilterExampleEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex2.FilterExampleEx1" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda1.*" />
+          <option name="PATTERN" value="lambda.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProcedureMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda1.ProcedureMain1" />
+    <configuration name="FilterExampleEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex2.FilterExampleEx2" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda1.*" />
+          <option name="PATTERN" value="lambda.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProcedureMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda1.ProcedureMain2" />
+    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex2.MapExample" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda1.*" />
+          <option name="PATTERN" value="lambda.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.M5Return" />
-        <item itemvalue="Application.MyFunctionMain2" />
-        <item itemvalue="Application.MyFunctionMain1" />
-        <item itemvalue="Application.ProcedureMain2" />
-        <item itemvalue="Application.ProcedureMain1" />
+        <item itemvalue="Application.MapExample" />
+        <item itemvalue="Application.FilterExampleEx2" />
+        <item itemvalue="Application.FilterExampleEx1 (1)" />
+        <item itemvalue="Application.FilterExampleEx1" />
+        <item itemvalue="Application.FilterExample" />
       </list>
     </recent_temporary>
   </component>
@@ -167,12 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1743662927093</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lambda ex1">
+      <option name="closed" value="true" />
+      <created>1743746571847</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743746571847</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lambda start" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda start" />
+    <MESSAGE value="lambda ex1" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda ex1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
