@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="lambda single expression">
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda2/LambdaPassMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda2/LambdaPassMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda2/LambdaPassMain3.java" afterDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="lambda">
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex1/M1After.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex1/M1Before.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex1/M2After.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex1/M2Before.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex1/M3MeasureTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex1/M4MeasureTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +63,11 @@
     "Application.LambdaSimple2.executor": "Run",
     "Application.LambdaSimple3.executor": "Run",
     "Application.LambdaSimple4.executor": "Run",
+    "Application.M1After.executor": "Run",
+    "Application.M1Before.executor": "Run",
+    "Application.M2After.executor": "Run",
+    "Application.M2Before.executor": "Run",
+    "Application.M3MeasureTime.executor": "Run",
     "Application.ProcedureMain2.executor": "Run",
     "Application.SamMain.executor": "Run",
     "Application.test.executor": "Run",
@@ -76,13 +84,13 @@
       <recent name="lambda.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LambdaPassMain3">
-    <configuration name="LambdaPassMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda2.LambdaPassMain1" />
+  <component name="RunManager" selected="Application.M3MeasureTime">
+    <configuration name="M1After" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex1.M1After" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda2.*" />
+          <option name="PATTERN" value="lambda.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaPassMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda2.LambdaPassMain2" />
+    <configuration name="M1Before" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex1.M1Before" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda2.*" />
+          <option name="PATTERN" value="lambda.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaPassMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda2.LambdaPassMain3" />
+    <configuration name="M2After" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex1.M2After" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda2.*" />
+          <option name="PATTERN" value="lambda.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaSimple3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda1.LambdaSimple3" />
+    <configuration name="M2Before" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex1.M2Before" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda1.*" />
+          <option name="PATTERN" value="lambda.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaSimple4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda1.LambdaSimple4" />
+    <configuration name="M3MeasureTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex1.M3MeasureTime" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda1.*" />
+          <option name="PATTERN" value="lambda.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LambdaPassMain3" />
-        <item itemvalue="Application.LambdaPassMain2" />
-        <item itemvalue="Application.LambdaPassMain1" />
-        <item itemvalue="Application.LambdaSimple4" />
-        <item itemvalue="Application.LambdaSimple3" />
+        <item itemvalue="Application.M3MeasureTime" />
+        <item itemvalue="Application.M2After" />
+        <item itemvalue="Application.M2Before" />
+        <item itemvalue="Application.M1After" />
+        <item itemvalue="Application.M1Before" />
       </list>
     </recent_temporary>
   </component>
@@ -209,14 +217,22 @@
       <option name="project" value="LOCAL" />
       <updated>1743735460304</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lambda">
+      <option name="closed" value="true" />
+      <created>1743737856207</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743737856207</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lambda" />
     <MESSAGE value="FunctionalInterface" />
     <MESSAGE value="lambda single expression" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda single expression" />
+    <MESSAGE value="lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
