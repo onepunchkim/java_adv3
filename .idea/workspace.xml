@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="lambda start">
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda1/InstanceMain.java" afterDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="lambda">
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda1/NotSamInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda1/SamInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda1/SamMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -51,6 +54,7 @@
     "Application.Ex0RefMain.executor": "Run",
     "Application.InstanceMain.executor": "Run",
     "Application.ProcedureMain2.executor": "Run",
+    "Application.SamMain.executor": "Run",
     "Application.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -65,7 +69,7 @@
       <recent name="lambda.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InstanceMain">
+  <component name="RunManager" selected="Application.SamMain">
     <configuration name="Ex0Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.start.Ex0Main" />
       <module name="java-adv3" />
@@ -118,20 +122,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
+    <configuration name="SamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda1.SamMain" />
       <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SamMain" />
         <item itemvalue="Application.InstanceMain" />
         <item itemvalue="Application.ProcedureMain2" />
         <item itemvalue="Application.Ex0RefMain" />
         <item itemvalue="Application.Ex0Main" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +154,20 @@
       <option name="presentableId" value="Default" />
       <updated>1743650265160</updated>
     </task>
+    <task id="LOCAL-00001" summary="lambda">
+      <option name="closed" value="true" />
+      <created>1743732711883</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743732711883</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
