@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="lambda ex2">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/BuildGreeterExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/ComposeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/ComposeExampleEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/MyReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/MyTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/ex2/ReduceExample.java" afterDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="lambda">
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda3/GenericMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda3/GenericMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda3/GenericMain3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;onepunchkim&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/onepunchkim/java_adv3.git&quot;,
+    &quot;accountId&quot;: &quot;c350b8e6-b95a-4737-a64f-597c4d1ca9e2&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -42,28 +50,31 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.BuildGreeterExample.executor": "Run",
-    "Application.ComposeExample.executor": "Run",
-    "Application.ComposeExampleEx1.executor": "Run",
+    "Application.Ex0Main.executor": "Run",
     "Application.Ex0RefMain.executor": "Run",
-    "Application.Ex1Main.executor": "Run",
-    "Application.Ex1RefMainV1.executor": "Run",
-    "Application.Ex1RefMainV2.executor": "Run",
-    "Application.Ex1RefMainV3.executor": "Run",
-    "Application.Ex1RefMainV4.executor": "Run",
-    "Application.FilterExample.executor": "Run",
-    "Application.FilterExampleEx1 (1).executor": "Run",
-    "Application.FilterExampleEx1.executor": "Run",
-    "Application.FilterExampleEx2.executor": "Run",
+    "Application.GenericMain1.executor": "Run",
+    "Application.GenericMain2.executor": "Run",
+    "Application.InstanceMain.executor": "Run",
+    "Application.LambdaPassMain1.executor": "Run",
+    "Application.LambdaPassMain2.executor": "Run",
+    "Application.LambdaPassMain3.executor": "Run",
+    "Application.LambdaSimple1.executor": "Run",
+    "Application.LambdaSimple2.executor": "Run",
+    "Application.LambdaSimple3.executor": "Run",
+    "Application.LambdaSimple4.executor": "Run",
+    "Application.M1After.executor": "Run",
+    "Application.M1Before.executor": "Run",
+    "Application.M2After.executor": "Run",
+    "Application.M2Before.executor": "Run",
+    "Application.M3MeasureTime.executor": "Run",
     "Application.M5Return.executor": "Run",
     "Application.MapExample.executor": "Run",
-    "Application.MyFunctionMain1.executor": "Run",
-    "Application.ProcedureMain1.executor": "Run",
     "Application.ProcedureMain2.executor": "Run",
-    "Application.ReduceExample.executor": "Run",
+    "Application.SamMain.executor": "Run",
+    "Application.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/gurwl/java_practice/java-adv3/src/Main.java"
@@ -71,18 +82,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="lambda.ex2" />
-      <recent name="lambda.lambda1" />
+      <recent name="lambda.lambda3" />
       <recent name="lambda.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ComposeExampleEx1">
-    <configuration name="BuildGreeterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex2.BuildGreeterExample" />
+  <component name="RunManager" selected="Application.GenericMain3">
+    <configuration name="GenericMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.GenericMain1" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.ex2.*" />
+          <option name="PATTERN" value="lambda.lambda3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComposeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex2.ComposeExample" />
+    <configuration name="GenericMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.GenericMain2" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.ex2.*" />
+          <option name="PATTERN" value="lambda.lambda3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +113,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComposeExampleEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex2.ComposeExampleEx1" />
+    <configuration name="GenericMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.GenericMain3" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.ex2.*" />
+          <option name="PATTERN" value="lambda.lambda3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="M5Return" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex1.M5Return" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,35 +152,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReduceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex2.ReduceExample" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.ex2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ComposeExampleEx1" />
-        <item itemvalue="Application.ComposeExample" />
-        <item itemvalue="Application.BuildGreeterExample" />
-        <item itemvalue="Application.ReduceExample" />
+        <item itemvalue="Application.GenericMain3" />
+        <item itemvalue="Application.GenericMain2" />
+        <item itemvalue="Application.GenericMain1" />
         <item itemvalue="Application.MapExample" />
+        <item itemvalue="Application.M5Return" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -168,46 +171,70 @@
       <option name="presentableId" value="Default" />
       <updated>1743650265160</updated>
     </task>
-    <task id="LOCAL-00001" summary="lambda start">
+    <task id="LOCAL-00001" summary="lambda">
       <option name="closed" value="true" />
-      <created>1743662021702</created>
+      <created>1743732711883</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1743662021702</updated>
+      <updated>1743732711883</updated>
     </task>
-    <task id="LOCAL-00002" summary="lambda start">
+    <task id="LOCAL-00002" summary="FunctionalInterface">
       <option name="closed" value="true" />
-      <created>1743662927093</created>
+      <created>1743734012286</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1743662927093</updated>
+      <updated>1743734012286</updated>
     </task>
-    <task id="LOCAL-00003" summary="lambda ex1">
+    <task id="LOCAL-00003" summary="FunctionalInterface">
       <option name="closed" value="true" />
-      <created>1743746571847</created>
+      <created>1743734038828</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1743746571847</updated>
+      <updated>1743734038828</updated>
     </task>
-    <task id="LOCAL-00004" summary="lambda ex2">
+    <task id="LOCAL-00004" summary="lambda single expression">
       <option name="closed" value="true" />
-      <created>1743748053972</created>
+      <created>1743734957304</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1743748053972</updated>
+      <updated>1743734957304</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lambda single expression">
+      <option name="closed" value="true" />
+      <created>1743735375707</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743735375707</updated>
+    </task>
+    <task id="LOCAL-00006" summary="lambda single expression">
+      <option name="closed" value="true" />
+      <created>1743735460304</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743735460304</updated>
+    </task>
+    <task id="LOCAL-00007" summary="lambda">
+      <option name="closed" value="true" />
+      <created>1743737856207</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743737856207</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lambda start" />
-    <MESSAGE value="lambda ex1" />
-    <MESSAGE value="lambda ex2" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda ex2" />
+    <MESSAGE value="FunctionalInterface" />
+    <MESSAGE value="lambda single expression" />
+    <MESSAGE value="lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
