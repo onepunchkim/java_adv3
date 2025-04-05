@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="FunctionalInterface and Generic">
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda3/TargetType1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda3/TargetType2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda3/TargetType3.java" afterDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="targetType">
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda4/ConsumerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda4/FunctionMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda4/RunnableMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda4/SupplierMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +51,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ConsumerMain.executor": "Run",
     "Application.Ex0Main.executor": "Run",
     "Application.Ex0RefMain.executor": "Run",
+    "Application.FunctionMain.executor": "Run",
     "Application.GenericMain1.executor": "Run",
     "Application.GenericMain2.executor": "Run",
     "Application.GenericMain3.executor": "Run",
@@ -74,9 +77,12 @@
     "Application.M5Return.executor": "Run",
     "Application.MapExample.executor": "Run",
     "Application.ProcedureMain2.executor": "Run",
+    "Application.RunnableMain.executor": "Run",
     "Application.SamMain.executor": "Run",
+    "Application.SupplierMain.executor": "Run",
     "Application.TargetType1.executor": "Run",
     "Application.TargetType2.executor": "Run",
+    "Application.TargetType3.executor": "Run",
     "Application.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -92,13 +98,13 @@
       <recent name="lambda.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TargetType3">
-    <configuration name="GenericMain4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.GenericMain4" />
+  <component name="RunManager" selected="Application.RunnableMain">
+    <configuration name="ConsumerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda4.ConsumerMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda3.*" />
+          <option name="PATTERN" value="lambda.lambda4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericMain6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.GenericMain6" />
+    <configuration name="FunctionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda4.FunctionMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda3.*" />
+          <option name="PATTERN" value="lambda.lambda4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TargetType1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.TargetType1" />
+    <configuration name="RunnableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda4.RunnableMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda3.*" />
+          <option name="PATTERN" value="lambda.lambda4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TargetType2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.TargetType2" />
+    <configuration name="SupplierMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda4.SupplierMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda3.*" />
+          <option name="PATTERN" value="lambda.lambda4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RunnableMain" />
+        <item itemvalue="Application.SupplierMain" />
+        <item itemvalue="Application.ConsumerMain" />
+        <item itemvalue="Application.FunctionMain" />
         <item itemvalue="Application.TargetType3" />
-        <item itemvalue="Application.TargetType2" />
-        <item itemvalue="Application.TargetType1" />
-        <item itemvalue="Application.GenericMain6" />
-        <item itemvalue="Application.GenericMain4 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743823368969</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="targetType">
+      <option name="closed" value="true" />
+      <created>1743824501962</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1743824501962</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -257,7 +271,8 @@
     <MESSAGE value="lambda single expression" />
     <MESSAGE value="lambda" />
     <MESSAGE value="FunctionalInterface and Generic" />
-    <option name="LAST_COMMIT_MESSAGE" value="FunctionalInterface and Generic" />
+    <MESSAGE value="targetType" />
+    <option name="LAST_COMMIT_MESSAGE" value="targetType" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
