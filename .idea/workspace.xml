@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="FunctionalInterface and Generic">
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda3/GenericMain4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda3/GenericMain5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda3/GenericMain6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda3/TargetType1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda3/TargetType2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda3/TargetType3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +75,8 @@
     "Application.MapExample.executor": "Run",
     "Application.ProcedureMain2.executor": "Run",
     "Application.SamMain.executor": "Run",
+    "Application.TargetType1.executor": "Run",
+    "Application.TargetType2.executor": "Run",
     "Application.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -90,47 +92,8 @@
       <recent name="lambda.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericMain6">
-    <configuration name="GenericMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.GenericMain2" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.lambda3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenericMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.GenericMain3" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.lambda3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TargetType3">
     <configuration name="GenericMain4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.GenericMain4" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.lambda3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenericMain4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.lambda3.GenericMain4" />
       <module name="java-adv3" />
       <extension name="coverage">
@@ -156,13 +119,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TargetType1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.TargetType1" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TargetType2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.TargetType2" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TargetType3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda3.TargetType3" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TargetType3" />
+        <item itemvalue="Application.TargetType2" />
+        <item itemvalue="Application.TargetType1" />
         <item itemvalue="Application.GenericMain6" />
         <item itemvalue="Application.GenericMain4 (1)" />
-        <item itemvalue="Application.GenericMain4" />
-        <item itemvalue="Application.GenericMain3" />
-        <item itemvalue="Application.GenericMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743822595168</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="FunctionalInterface and Generic">
+      <option name="closed" value="true" />
+      <created>1743823368969</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1743823368969</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
