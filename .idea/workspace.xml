@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="default functionInterface">
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda4/PredicateMain.java" afterDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="special functionInterface">
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda4/OperatorMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +73,7 @@
     "Application.M3MeasureTime.executor": "Run",
     "Application.M5Return.executor": "Run",
     "Application.MapExample.executor": "Run",
+    "Application.OperatorMain.executor": "Run",
     "Application.PredicateMain.executor": "Run",
     "Application.ProcedureMain2.executor": "Run",
     "Application.RunnableMain.executor": "Run",
@@ -96,7 +97,7 @@
       <recent name="lambda.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PredicateMain">
+  <component name="RunManager" selected="Application.OperatorMain">
     <configuration name="ConsumerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.lambda4.ConsumerMain" />
       <module name="java-adv3" />
@@ -110,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda4.FunctionMain" />
+    <configuration name="OperatorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda4.OperatorMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
@@ -164,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OperatorMain" />
         <item itemvalue="Application.PredicateMain" />
         <item itemvalue="Application.RunnableMain" />
         <item itemvalue="Application.SupplierMain" />
         <item itemvalue="Application.ConsumerMain" />
-        <item itemvalue="Application.FunctionMain" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743825402495</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="special functionInterface">
+      <option name="closed" value="true" />
+      <created>1743825758745</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1743825758745</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -279,7 +288,8 @@
     <MESSAGE value="FunctionalInterface and Generic" />
     <MESSAGE value="targetType" />
     <MESSAGE value="default functionInterface" />
-    <option name="LAST_COMMIT_MESSAGE" value="default functionInterface" />
+    <MESSAGE value="special functionInterface" />
+    <option name="LAST_COMMIT_MESSAGE" value="special functionInterface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
