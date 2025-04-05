@@ -20,8 +20,7 @@ public class MapMainV3 {
     static List<Integer> map(List<String> list, Function<String, Integer> mapper) {
         List<Integer> numbers = new ArrayList<>();
         for (String s : list) {
-            Integer value = mapper.apply(s);
-            numbers.add(value);
+            numbers.add(mapper.apply(s));
         }
         return numbers;
     }
