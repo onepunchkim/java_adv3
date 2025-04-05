@@ -70,18 +70,19 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lambda.ex3" />
       <recent name="lambda.ex2" />
       <recent name="lambda.lambda1" />
       <recent name="lambda.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MapExample">
-    <configuration name="BiMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda4.BiMain" />
+  <component name="RunManager" selected="Application.ComposeExampleEx1">
+    <configuration name="ComposeExampleEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex2.ComposeExampleEx1" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda4.*" />
+          <option name="PATTERN" value="lambda.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda4.TriMain" />
+    <configuration name="ReduceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex3.ReduceExample" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda4.*" />
+          <option name="PATTERN" value="lambda.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComposeExampleEx1" />
+        <item itemvalue="Application.ReduceExample" />
         <item itemvalue="Application.MapExample" />
         <item itemvalue="Application.FilterExampleEx3" />
         <item itemvalue="Application.PrimitiveFunction" />
-        <item itemvalue="Application.TriMain" />
-        <item itemvalue="Application.BiMain" />
       </list>
     </recent_temporary>
   </component>
