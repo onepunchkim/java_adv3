@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="lambda ex2">
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda4/BiMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda4/PrimitiveFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda4/TriMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-04__11_17__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-04__11_17__Changes_.xml" afterDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="etc functionInterface">
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex3/FilterExampleEx3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/ex3/MapExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,9 +51,11 @@
     "Application.FilterExampleEx1 (1).executor": "Run",
     "Application.FilterExampleEx1.executor": "Run",
     "Application.FilterExampleEx2.executor": "Run",
+    "Application.FilterExampleEx3.executor": "Run",
     "Application.M5Return.executor": "Run",
     "Application.MapExample.executor": "Run",
     "Application.MyFunctionMain1.executor": "Run",
+    "Application.PrimitiveFunction.executor": "Run",
     "Application.ProcedureMain1.executor": "Run",
     "Application.ProcedureMain2.executor": "Run",
     "Application.ReduceExample.executor": "Run",
@@ -75,7 +75,7 @@
       <recent name="lambda.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrimitiveFunction">
+  <component name="RunManager" selected="Application.MapExample">
     <configuration name="BiMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.lambda4.BiMain" />
       <module name="java-adv3" />
@@ -89,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComposeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex2.ComposeExample" />
+    <configuration name="FilterExampleEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex3.FilterExampleEx3" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.ex2.*" />
+          <option name="PATTERN" value="lambda.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComposeExampleEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex2.ComposeExampleEx1" />
+    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.ex3.MapExample" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.ex2.*" />
+          <option name="PATTERN" value="lambda.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapExample" />
+        <item itemvalue="Application.FilterExampleEx3" />
         <item itemvalue="Application.PrimitiveFunction" />
         <item itemvalue="Application.TriMain" />
         <item itemvalue="Application.BiMain" />
-        <item itemvalue="Application.ComposeExampleEx1" />
-        <item itemvalue="Application.ComposeExample" />
       </list>
     </recent_temporary>
   </component>
@@ -199,14 +199,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743748053972</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="etc functionInterface">
+      <option name="closed" value="true" />
+      <created>1743834974502</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743834974502</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lambda start" />
     <MESSAGE value="lambda ex1" />
     <MESSAGE value="lambda ex2" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda ex2" />
+    <MESSAGE value="etc functionInterface" />
+    <option name="LAST_COMMIT_MESSAGE" value="etc functionInterface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
