@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="functionInterface ex3">
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/FilterMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/FilterMainV2.java" afterDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="filter">
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/FilterMainV3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +52,7 @@
     "Application.FilterExampleEx2.executor": "Run",
     "Application.FilterExampleEx3.executor": "Run",
     "Application.FilterMainV1.executor": "Run",
+    "Application.FilterMainV2.executor": "Run",
     "Application.M5Return.executor": "Run",
     "Application.MapExample.executor": "Run",
     "Application.MyFunctionMain1.executor": "Run",
@@ -71,13 +71,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lambda.lambda5.filter" />
       <recent name="lambda.ex3" />
       <recent name="lambda.ex2" />
       <recent name="lambda.lambda1" />
       <recent name="lambda.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FilterMainV2">
+  <component name="RunManager" selected="Application.FilterMainV3">
     <configuration name="ComposeExampleEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.ex2.ComposeExampleEx1" />
       <module name="java-adv3" />
@@ -117,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex3.MapExample" />
+    <configuration name="FilterMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.filter.FilterMainV3" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.ex3.*" />
+          <option name="PATTERN" value="lambda.lambda5.filter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FilterMainV3" />
         <item itemvalue="Application.FilterMainV2" />
         <item itemvalue="Application.FilterMainV1" />
         <item itemvalue="Application.ComposeExampleEx1" />
         <item itemvalue="Application.ReduceExample" />
-        <item itemvalue="Application.MapExample" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743835558826</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="filter">
+      <option name="closed" value="true" />
+      <created>1743846633854</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743846633854</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -234,7 +243,8 @@
     <MESSAGE value="lambda ex2" />
     <MESSAGE value="etc functionInterface" />
     <MESSAGE value="functionInterface ex3" />
-    <option name="LAST_COMMIT_MESSAGE" value="functionInterface ex3" />
+    <MESSAGE value="filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="filter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
