@@ -24,7 +24,7 @@ public class MyStreamV2 {
                 filtered.add(element);
             }
         }
-        return new MyStreamV2(filtered);
+        return MyStreamV2.of(filtered);
     }
 
     public MyStreamV2 map(Function<Integer, Integer> mapper) {
@@ -32,7 +32,7 @@ public class MyStreamV2 {
         for (Integer element : internalList) {
             mapped.add(mapper.apply(element));
         }
-        return new MyStreamV2(mapped);
+        return MyStreamV2.of(mapped);
     }
 
     public List<Integer> toList() {
