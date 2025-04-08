@@ -79,13 +79,13 @@
       <recent name="lambda.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OuterMain">
-    <configuration name="ComposeExampleEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.ex2.ComposeExampleEx1" />
+  <component name="RunManager" selected="Application.CaptureMain">
+    <configuration name="CaptureMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda6.CaptureMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.ex2.*" />
+          <option name="PATTERN" value="lambda.lambda6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CaptureMain" />
         <item itemvalue="Application.OuterMain" />
         <item itemvalue="Application.FilterMainV3" />
         <item itemvalue="Application.FilterMainV2" />
         <item itemvalue="Application.FilterMainV1" />
-        <item itemvalue="Application.ComposeExampleEx1" />
       </list>
     </recent_temporary>
   </component>
