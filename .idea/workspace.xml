@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="filter">
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda6/OuterMain.java" afterDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="anonymous vs lambda capture">
+      <change afterPath="$PROJECT_DIR$/src/methodref/start/MethodRefStartV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/methodref/start/MethodRefStartV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/methodref/start/MethodRefStartV3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +40,7 @@
   "keyToString": {
     "Application.BiMain.executor": "Run",
     "Application.BuildGreeterExample.executor": "Run",
+    "Application.CaptureMain.executor": "Run",
     "Application.ComposeExample.executor": "Run",
     "Application.ComposeExampleEx1.executor": "Run",
     "Application.Ex0RefMain.executor": "Run",
@@ -55,6 +58,9 @@
     "Application.FilterMainV2.executor": "Run",
     "Application.M5Return.executor": "Run",
     "Application.MapExample.executor": "Run",
+    "Application.MethodRefStartV1.executor": "Run",
+    "Application.MethodRefStartV2.executor": "Run",
+    "Application.MethodRefStartV3.executor": "Run",
     "Application.MyFunctionMain1.executor": "Run",
     "Application.OuterMain.executor": "Run",
     "Application.PrimitiveFunction.executor": "Run",
@@ -72,14 +78,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="methodref.start" />
       <recent name="lambda.lambda5.filter" />
       <recent name="lambda.ex3" />
       <recent name="lambda.ex2" />
       <recent name="lambda.lambda1" />
-      <recent name="lambda.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CaptureMain">
+  <component name="RunManager" selected="Application.MethodRefStartV3">
     <configuration name="CaptureMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.lambda6.CaptureMain" />
       <module name="java-adv3" />
@@ -93,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.filter.FilterMainV1" />
+    <configuration name="MethodRefStartV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="methodref.start.MethodRefStartV1" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda5.filter.*" />
+          <option name="PATTERN" value="methodref.start.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.filter.FilterMainV2" />
+    <configuration name="MethodRefStartV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="methodref.start.MethodRefStartV2" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda5.filter.*" />
+          <option name="PATTERN" value="methodref.start.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.filter.FilterMainV3" />
+    <configuration name="MethodRefStartV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="methodref.start.MethodRefStartV3" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda5.filter.*" />
+          <option name="PATTERN" value="methodref.start.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodRefStartV3" />
+        <item itemvalue="Application.MethodRefStartV2" />
+        <item itemvalue="Application.MethodRefStartV1" />
         <item itemvalue="Application.CaptureMain" />
         <item itemvalue="Application.OuterMain" />
-        <item itemvalue="Application.FilterMainV3" />
-        <item itemvalue="Application.FilterMainV2" />
-        <item itemvalue="Application.FilterMainV1" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +241,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743846633854</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="anonymous vs lambda this scope">
+      <option name="closed" value="true" />
+      <created>1744102310367</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1744102310368</updated>
+    </task>
+    <task id="LOCAL-00010" summary="anonymous vs lambda capture">
+      <option name="closed" value="true" />
+      <created>1744102470718</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1744102470718</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -245,7 +267,9 @@
     <MESSAGE value="etc functionInterface" />
     <MESSAGE value="functionInterface ex3" />
     <MESSAGE value="filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="filter" />
+    <MESSAGE value="anonymous vs lambda this scope" />
+    <MESSAGE value="anonymous vs lambda capture" />
+    <option name="LAST_COMMIT_MESSAGE" value="anonymous vs lambda capture" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
