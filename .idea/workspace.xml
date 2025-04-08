@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="static factory">
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="generic stream">
       <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV3Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +84,7 @@
     "Application.MapMainV5.executor": "Run",
     "Application.MyStreamV1Main.executor": "Run",
     "Application.MyStreamV2Main.executor": "Run",
+    "Application.MyStreamV3Main.executor": "Run",
     "Application.OperatorMain.executor": "Run",
     "Application.PredicateMain.executor": "Run",
     "Application.ProcedureMain2.executor": "Run",
@@ -382,7 +381,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744080791248</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="generic stream">
+      <option name="closed" value="true" />
+      <created>1744081534983</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1744081534983</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -398,7 +405,8 @@
     <MESSAGE value="filter and map" />
     <MESSAGE value="stream" />
     <MESSAGE value="static factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="static factory" />
+    <MESSAGE value="generic stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="generic stream" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
