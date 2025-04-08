@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="generic stream">
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamLoopMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +84,7 @@
     "Application.MapMainV3.executor": "Run",
     "Application.MapMainV4.executor": "Run",
     "Application.MapMainV5.executor": "Run",
+    "Application.MyStreamLoopMain.executor": "Run",
     "Application.MyStreamV1Main.executor": "Run",
     "Application.MyStreamV2Main.executor": "Run",
     "Application.MyStreamV3Main.executor": "Run",
@@ -112,9 +115,9 @@
       <recent name="lambda.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyStreamV3Main">
-    <configuration name="Ex1_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.mystream.Ex1_Number" />
+  <component name="RunManager" selected="Application.MyStreamLoopMain">
+    <configuration name="Ex2_Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.mystream.Ex2_Student" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
@@ -126,8 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex2_Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.mystream.Ex2_Student" />
+    <configuration name="MyStreamLoopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.mystream.MyStreamLoopMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
@@ -180,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyStreamLoopMain" />
         <item itemvalue="Application.MyStreamV3Main" />
         <item itemvalue="Application.MyStreamV2Main" />
         <item itemvalue="Application.MyStreamV1Main" />
         <item itemvalue="Application.Ex2_Student" />
-        <item itemvalue="Application.Ex1_Number" />
       </list>
     </recent_temporary>
   </component>
@@ -389,7 +392,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744081534983</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="generic stream">
+      <option name="closed" value="true" />
+      <created>1744081736711</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1744081736711</updated>
+    </task>
+    <task id="LOCAL-00026" summary="generic stream">
+      <option name="closed" value="true" />
+      <created>1744081743301</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1744081743301</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
