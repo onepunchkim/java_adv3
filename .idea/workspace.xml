@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="methodRef">
-      <change afterPath="$PROJECT_DIR$/src/methodref/MethodRefEx5.java" afterDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="methodRef and stream">
+      <change afterPath="$PROJECT_DIR$/src/methodref/MethodRefEx6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +60,7 @@
     "Application.MethodRefEx2.executor": "Run",
     "Application.MethodRefEx3.executor": "Run",
     "Application.MethodRefEx4.executor": "Run",
+    "Application.MethodRefEx5.executor": "Run",
     "Application.MethodRefStartV1.executor": "Run",
     "Application.MethodRefStartV2.executor": "Run",
     "Application.MethodRefStartV3.executor": "Run",
@@ -86,20 +88,7 @@
       <recent name="lambda.ex2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MethodRefEx5">
-    <configuration name="MethodRefEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methodref.MethodRefEx1" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="methodref.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MethodRefEx6">
     <configuration name="MethodRefEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="methodref.MethodRefEx2" />
       <module name="java-adv3" />
@@ -152,13 +141,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MethodRefEx6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="methodref.MethodRefEx6" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="methodref.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodRefEx6" />
         <item itemvalue="Application.MethodRefEx5" />
         <item itemvalue="Application.MethodRefEx4" />
         <item itemvalue="Application.MethodRefEx3" />
         <item itemvalue="Application.MethodRefEx2" />
-        <item itemvalue="Application.MethodRefEx1" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744191272561</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="methodRef and stream">
+      <option name="closed" value="true" />
+      <created>1744191775106</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1744191775106</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -311,7 +321,8 @@
     <MESSAGE value="anonymous vs lambda this scope" />
     <MESSAGE value="anonymous vs lambda capture" />
     <MESSAGE value="methodRef" />
-    <option name="LAST_COMMIT_MESSAGE" value="methodRef" />
+    <MESSAGE value="methodRef and stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="methodRef and stream" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
