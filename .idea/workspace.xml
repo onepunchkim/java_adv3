@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="stream API">
-      <change afterPath="$PROJECT_DIR$/src/stream/basic/LazyEvalMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/basic/LazyEvalMain2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +57,7 @@
     "Application.FilterMainV2.executor": "Run",
     "Application.ImmutableMain.executor": "Run",
     "Application.LazyEvalMain1.executor": "Run",
+    "Application.LazyEvalMain2.executor": "Run",
     "Application.M5Return.executor": "Run",
     "Application.MapExample.executor": "Run",
     "Application.MethodRefEx1.executor": "Run",
@@ -86,14 +87,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="stream.basic" />
       <recent name="methodref" />
       <recent name="methodref.start" />
       <recent name="lambda.lambda5.filter" />
       <recent name="lambda.ex3" />
-      <recent name="lambda.ex2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LazyEvalMain1">
+  <component name="RunManager" selected="Application.LazyEvalMain3">
     <configuration name="DuplicateExecutionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.basic.DuplicateExecutionMain" />
       <module name="java-adv3" />
@@ -133,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodRefEx6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methodref.MethodRefEx6" />
+    <configuration name="LazyEvalMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.basic.LazyEvalMain2" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="methodref.*" />
+          <option name="PATTERN" value="stream.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamStartMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.start.StreamStartMain" />
+    <configuration name="LazyEvalMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.basic.LazyEvalMain3" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.start.*" />
+          <option name="PATTERN" value="stream.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LazyEvalMain3" />
+        <item itemvalue="Application.LazyEvalMain2" />
         <item itemvalue="Application.LazyEvalMain1" />
         <item itemvalue="Application.DuplicateExecutionMain" />
         <item itemvalue="Application.ImmutableMain" />
-        <item itemvalue="Application.StreamStartMain" />
-        <item itemvalue="Application.MethodRefEx6" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744274927297</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="stream API">
+      <option name="closed" value="true" />
+      <created>1744276118134</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1744276118134</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
