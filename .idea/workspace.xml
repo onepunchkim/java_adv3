@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="stream API">
-      <change afterPath="$PROJECT_DIR$/src/stream/basic/DuplicateExecutionMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/basic/ImmutableMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/basic/LazyEvalMain1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +56,7 @@
     "Application.FilterMainV1.executor": "Run",
     "Application.FilterMainV2.executor": "Run",
     "Application.ImmutableMain.executor": "Run",
+    "Application.LazyEvalMain1.executor": "Run",
     "Application.M5Return.executor": "Run",
     "Application.MapExample.executor": "Run",
     "Application.MethodRefEx1.executor": "Run",
@@ -93,7 +93,7 @@
       <recent name="lambda.ex2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DuplicateExecutionMain">
+  <component name="RunManager" selected="Application.LazyEvalMain1">
     <configuration name="DuplicateExecutionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.basic.DuplicateExecutionMain" />
       <module name="java-adv3" />
@@ -120,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodRefEx5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methodref.MethodRefEx5" />
+    <configuration name="LazyEvalMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.basic.LazyEvalMain1" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="methodref.*" />
+          <option name="PATTERN" value="stream.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LazyEvalMain1" />
         <item itemvalue="Application.DuplicateExecutionMain" />
         <item itemvalue="Application.ImmutableMain" />
         <item itemvalue="Application.StreamStartMain" />
         <item itemvalue="Application.MethodRefEx6" />
-        <item itemvalue="Application.MethodRefEx5" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744274255668</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="stream API">
+      <option name="closed" value="true" />
+      <created>1744274927297</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1744274927297</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
