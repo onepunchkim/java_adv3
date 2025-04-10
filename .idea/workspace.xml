@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="methodRef and stream">
-      <change afterPath="$PROJECT_DIR$/src/stream/start/StreamStartMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-03__1_49__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-03_오후_1_49_[Changes]/shelved.patch" beforeDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="stream API">
+      <change afterPath="$PROJECT_DIR$/src/stream/basic/DuplicateExecutionMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/basic/ImmutableMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +42,7 @@
     "Application.CaptureMain.executor": "Run",
     "Application.ComposeExample.executor": "Run",
     "Application.ComposeExampleEx1.executor": "Run",
+    "Application.DuplicateExecutionMain.executor": "Run",
     "Application.Ex0RefMain.executor": "Run",
     "Application.Ex1Main.executor": "Run",
     "Application.Ex1RefMainV1.executor": "Run",
@@ -56,6 +56,7 @@
     "Application.FilterExampleEx3.executor": "Run",
     "Application.FilterMainV1.executor": "Run",
     "Application.FilterMainV2.executor": "Run",
+    "Application.ImmutableMain.executor": "Run",
     "Application.M5Return.executor": "Run",
     "Application.MapExample.executor": "Run",
     "Application.MethodRefEx1.executor": "Run",
@@ -92,13 +93,13 @@
       <recent name="lambda.ex2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamStartMain">
-    <configuration name="MethodRefEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methodref.MethodRefEx3" />
+  <component name="RunManager" selected="Application.DuplicateExecutionMain">
+    <configuration name="DuplicateExecutionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.basic.DuplicateExecutionMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="methodref.*" />
+          <option name="PATTERN" value="stream.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodRefEx4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methodref.MethodRefEx4" />
+    <configuration name="ImmutableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.basic.ImmutableMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="methodref.*" />
+          <option name="PATTERN" value="stream.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DuplicateExecutionMain" />
+        <item itemvalue="Application.ImmutableMain" />
         <item itemvalue="Application.StreamStartMain" />
         <item itemvalue="Application.MethodRefEx6" />
         <item itemvalue="Application.MethodRefEx5" />
-        <item itemvalue="Application.MethodRefEx4" />
-        <item itemvalue="Application.MethodRefEx3" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +321,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744192188254</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="stream API">
+      <option name="closed" value="true" />
+      <created>1744274255668</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1744274255668</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -334,7 +343,8 @@
     <MESSAGE value="anonymous vs lambda capture" />
     <MESSAGE value="methodRef" />
     <MESSAGE value="methodRef and stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="methodRef and stream" />
+    <MESSAGE value="stream API" />
+    <option name="LAST_COMMIT_MESSAGE" value="stream API" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
