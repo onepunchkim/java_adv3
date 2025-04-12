@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="terminal Operation">
-      <change afterPath="$PROJECT_DIR$/src/stream/operation/PrimitiveStreamMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="primitive Stream" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,6 +71,7 @@
     "Application.OptionalSimpleMain.executor": "Run",
     "Application.OuterMain.executor": "Run",
     "Application.PrimitiveFunction.executor": "Run",
+    "Application.PrimitiveStreamMain.executor": "Run",
     "Application.ProcedureMain1.executor": "Run",
     "Application.ProcedureMain2.executor": "Run",
     "Application.ReduceExample.executor": "Run",
@@ -373,7 +371,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744427483827</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="primitive Stream">
+      <option name="closed" value="true" />
+      <created>1744428544609</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1744428544609</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -391,7 +397,8 @@
     <MESSAGE value="flatMap" />
     <MESSAGE value="optional" />
     <MESSAGE value="terminal Operation" />
-    <option name="LAST_COMMIT_MESSAGE" value="terminal Operation" />
+    <MESSAGE value="primitive Stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="primitive Stream" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

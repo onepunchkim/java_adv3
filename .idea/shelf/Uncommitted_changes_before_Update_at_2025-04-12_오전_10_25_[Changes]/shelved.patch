@@ -1,0 +1,516 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_2025-04-04__2_52__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-04__2_52__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-04__2_52__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-04__2_52__Changes_.xml	(revision ba9797603d681defab941a3f40ddd0e6d0e0d155)
++++ /dev/null	(revision ba9797603d681defab941a3f40ddd0e6d0e0d155)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_2025-04-04_오후_2_52_[Changes]" date="1743745997960" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-04_오후_2_52_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2025-04-04 오후 2:52 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_2025-04-04_오후_2_52_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-04_오후_2_52_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-04_오후_2_52_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-04_오후_2_52_[Changes]/shelved.patch	(revision ba9797603d681defab941a3f40ddd0e6d0e0d155)
++++ /dev/null	(revision ba9797603d681defab941a3f40ddd0e6d0e0d155)
+@@ -1,57 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"381b8d63-3c0a-4a2b-b7ae-8f667079278f\" name=\"Changes\" comment=\"lambda start\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/lambda/MyFunction.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/lambda/lambda1/MyFunctionMain1.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/lambda/lambda1/MyFunctionMain2.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/lambda/lambda1/ProcedureMain1.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/lambda/lambda1/ProcedureMain2.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n        <option value=\"Interface\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 4\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2vCXw1Sjio8RBs0KFIkHwABtixa\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Ex0RefMain.executor\": \"Run\",\r\n    \"Application.Ex1Main.executor\": \"Run\",\r\n    \"Application.Ex1RefMainV1.executor\": \"Run\",\r\n    \"Application.Ex1RefMainV2.executor\": \"Run\",\r\n    \"Application.Ex1RefMainV3.executor\": \"Run\",\r\n    \"Application.Ex1RefMainV4.executor\": \"Run\",\r\n    \"Application.MyFunctionMain1.executor\": \"Run\",\r\n    \"Application.ProcedureMain1.executor\": \"Run\",\r\n    \"Application.ProcedureMain2.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"onboarding.tips.debug.path\": \"C:/Users/gurwl/java_practice/java-adv3/src/Main.java\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"lambda.lambda1\" />\r\n      <recent name=\"lambda.start\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.MyFunctionMain2\">\r\n    <configuration name=\"Ex1RefMainV4\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lambda.start.Ex1RefMainV4\" />\r\n      <module name=\"java-adv3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lambda.start.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"MyFunctionMain1\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lambda.lambda1.MyFunctionMain1\" />\r\n      <module name=\"java-adv3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lambda.lambda1.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"MyFunctionMain2\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lambda.lambda1.MyFunctionMain2\" />\r\n      <module name=\"java-adv3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lambda.lambda1.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProcedureMain1\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lambda.lambda1.ProcedureMain1\" />\r\n      <module name=\"java-adv3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lambda.lambda1.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProcedureMain2\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lambda.lambda1.ProcedureMain2\" />\r\n      <module name=\"java-adv3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lambda.lambda1.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.MyFunctionMain2\" />\r\n        <item itemvalue=\"Application.MyFunctionMain1\" />\r\n        <item itemvalue=\"Application.ProcedureMain2\" />\r\n        <item itemvalue=\"Application.ProcedureMain1\" />\r\n        <item itemvalue=\"Application.Ex1RefMainV4\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"381b8d63-3c0a-4a2b-b7ae-8f667079278f\" name=\"Changes\" comment=\"\" />\r\n      <created>1743650265160</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1743650265160</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"lambda start\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743662021702</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743662021702</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"lambda start\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743662927093</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743662927093</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"lambda start\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"lambda start\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/Main.java</url>\r\n          <line>11</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision edba36febdf955996bc8cd8adf2e1c1b40f64ff9)
+-+++ b/.idea/workspace.xml	(date 1743663757023)
+-@@ -5,11 +5,6 @@
+-   </component>
+-   <component name="ChangeListManager">
+-     <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="lambda start">
+--      <change afterPath="$PROJECT_DIR$/src/lambda/MyFunction.java" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/src/lambda/lambda1/MyFunctionMain1.java" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/src/lambda/lambda1/MyFunctionMain2.java" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/src/lambda/lambda1/ProcedureMain1.java" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/src/lambda/lambda1/ProcedureMain2.java" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-@@ -20,8 +15,8 @@
+-   <component name="FileTemplateManagerImpl">
+-     <option name="RECENT_TEMPLATES">
+-       <list>
+--        <option value="Class" />
+-         <option value="Interface" />
+-+        <option value="Class" />
+-       </list>
+-     </option>
+-   </component>
+-@@ -47,6 +42,7 @@
+-     "Application.Ex1RefMainV3.executor": "Run",
+-     "Application.Ex1RefMainV4.executor": "Run",
+-     "Application.MyFunctionMain1.executor": "Run",
+-+    "Application.MyFunctionMain2.executor": "Run",
+-     "Application.ProcedureMain1.executor": "Run",
+-     "Application.ProcedureMain2.executor": "Run",
+-     "RunOnceActivity.OpenProjectViewOnStart": "true",
+-@@ -170,7 +166,15 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1743662927093</updated>
+-     </task>
+--    <option name="localTasksCounter" value="3" />
+-+    <task id="LOCAL-00003" summary="lambda start">
+-+      <option name="closed" value="true" />
+-+      <created>1743663703395</created>
+-+      <option name="number" value="00003" />
+-+      <option name="presentableId" value="LOCAL-00003" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1743663703395</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="4" />
+-     <servers />
+-   </component>
+-   <component name="VcsManagerConfiguration">
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_2025-04-03_오후_11_34_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-03_오후_11_34_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-03_오후_11_34_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-03_오후_11_34_[Changes]/shelved.patch	(revision ba9797603d681defab941a3f40ddd0e6d0e0d155)
++++ /dev/null	(revision ba9797603d681defab941a3f40ddd0e6d0e0d155)
+@@ -1,45 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"381b8d63-3c0a-4a2b-b7ae-8f667079278f\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/lambda/start/Ex0Main.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/lambda/start/Ex0RefMain.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test.java\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"onepunchkim\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/onepunchkim/java_adv3.git\",\r\n    \"accountId\": \"c350b8e6-b95a-4737-a64f-597c4d1ca9e2\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 4\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2vCXw1Sjio8RBs0KFIkHwABtixa\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Ex0Main.executor\": \"Run\",\r\n    \"Application.Ex0RefMain.executor\": \"Run\",\r\n    \"Application.test.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"onboarding.tips.debug.path\": \"C:/Users/gurwl/java_practice/java-adv3/src/Main.java\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"lambda.start\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.Ex0RefMain\">\r\n    <configuration name=\"Ex0Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lambda.start.Ex0Main\" />\r\n      <module name=\"java-adv3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lambda.start.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Ex0RefMain\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lambda.start.Ex0RefMain\" />\r\n      <module name=\"java-adv3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lambda.start.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\r\n      <module name=\"java-adv3\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"test\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"test\" />\r\n      <module name=\"java-adv3\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Ex0RefMain\" />\r\n        <item itemvalue=\"Application.Ex0Main\" />\r\n        <item itemvalue=\"Application.test\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"381b8d63-3c0a-4a2b-b7ae-8f667079278f\" name=\"Changes\" comment=\"\" />\r\n      <created>1743650265160</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1743650265160</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/Main.java</url>\r\n          <line>11</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 1a9106404c70faeb4da3ca444a83ff70b7d77943)
+-+++ b/.idea/workspace.xml	(date 1743651627120)
+-@@ -4,12 +4,7 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="">
+--      <change afterPath="$PROJECT_DIR$/src/lambda/start/Ex0Main.java" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/src/lambda/start/Ex0RefMain.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" />
+--    </list>
+-+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="lambda start" />
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-@@ -124,7 +119,20 @@
+-       <option name="presentableId" value="Default" />
+-       <updated>1743650265160</updated>
+-     </task>
+-+    <task id="LOCAL-00001" summary="lambda start">
+-+      <option name="closed" value="true" />
+-+      <created>1743651608865</created>
+-+      <option name="number" value="00001" />
+-+      <option name="presentableId" value="LOCAL-00001" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1743651608865</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="2" />
+-     <servers />
+-+  </component>
+-+  <component name="VcsManagerConfiguration">
+-+    <MESSAGE value="lambda start" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="lambda start" />
+-   </component>
+-   <component name="XDebuggerManager">
+-     <breakpoint-manager>
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_2025-04-04_오후_11_17_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-04_오후_11_17_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-04_오후_11_17_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-04_오후_11_17_[Changes]/shelved.patch	(revision ba9797603d681defab941a3f40ddd0e6d0e0d155)
++++ /dev/null	(revision ba9797603d681defab941a3f40ddd0e6d0e0d155)
+@@ -1,53 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"381b8d63-3c0a-4a2b-b7ae-8f667079278f\" name=\"Changes\" comment=\"lambda\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/lambda/ex1/M1After.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/lambda/ex1/M1Before.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/lambda/ex1/M2After.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/lambda/ex1/M2Before.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/lambda/ex1/M3MeasureTime.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/lambda/ex1/M4MeasureTime.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;onepunchkim&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/onepunchkim/java_adv3.git&quot;,\r\n    &quot;accountId&quot;: &quot;c350b8e6-b95a-4737-a64f-597c4d1ca9e2&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 4\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2vCXw1Sjio8RBs0KFIkHwABtixa\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Ex0Main.executor\": \"Run\",\r\n    \"Application.Ex0RefMain.executor\": \"Run\",\r\n    \"Application.InstanceMain.executor\": \"Run\",\r\n    \"Application.LambdaPassMain1.executor\": \"Run\",\r\n    \"Application.LambdaPassMain2.executor\": \"Run\",\r\n    \"Application.LambdaPassMain3.executor\": \"Run\",\r\n    \"Application.LambdaSimple1.executor\": \"Run\",\r\n    \"Application.LambdaSimple2.executor\": \"Run\",\r\n    \"Application.LambdaSimple3.executor\": \"Run\",\r\n    \"Application.LambdaSimple4.executor\": \"Run\",\r\n    \"Application.M1After.executor\": \"Run\",\r\n    \"Application.M1Before.executor\": \"Run\",\r\n    \"Application.M2After.executor\": \"Run\",\r\n    \"Application.M2Before.executor\": \"Run\",\r\n    \"Application.M3MeasureTime.executor\": \"Run\",\r\n    \"Application.ProcedureMain2.executor\": \"Run\",\r\n    \"Application.SamMain.executor\": \"Run\",\r\n    \"Application.test.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"onboarding.tips.debug.path\": \"C:/Users/gurwl/java_practice/java-adv3/src/Main.java\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"lambda.start\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.M3MeasureTime\">\r\n    <configuration name=\"M1After\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lambda.ex1.M1After\" />\r\n      <module name=\"java-adv3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lambda.ex1.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"M1Before\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lambda.ex1.M1Before\" />\r\n      <module name=\"java-adv3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lambda.ex1.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"M2After\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lambda.ex1.M2After\" />\r\n      <module name=\"java-adv3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lambda.ex1.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"M2Before\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lambda.ex1.M2Before\" />\r\n      <module name=\"java-adv3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lambda.ex1.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"M3MeasureTime\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lambda.ex1.M3MeasureTime\" />\r\n      <module name=\"java-adv3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lambda.ex1.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.M3MeasureTime\" />\r\n        <item itemvalue=\"Application.M2After\" />\r\n        <item itemvalue=\"Application.M2Before\" />\r\n        <item itemvalue=\"Application.M1After\" />\r\n        <item itemvalue=\"Application.M1Before\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"381b8d63-3c0a-4a2b-b7ae-8f667079278f\" name=\"Changes\" comment=\"\" />\r\n      <created>1743650265160</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1743650265160</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"lambda\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743732711883</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743732711883</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"FunctionalInterface\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743734012286</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743734012286</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"FunctionalInterface\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743734038828</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743734038828</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"lambda single expression\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743734957304</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743734957304</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"lambda single expression\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743735375707</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743735375707</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"lambda single expression\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743735460304</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743735460304</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"lambda\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743737856207</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743737856207</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"8\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"FunctionalInterface\" />\r\n    <MESSAGE value=\"lambda single expression\" />\r\n    <MESSAGE value=\"lambda\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"lambda\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/Main.java</url>\r\n          <line>11</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 9b7978d1994a60c2adf9a10018e129b3f57a00fa)
+-+++ b/.idea/workspace.xml	(date 1743741356435)
+-@@ -4,15 +4,7 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="lambda">
+--      <change afterPath="$PROJECT_DIR$/src/lambda/ex1/M1After.java" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/src/lambda/ex1/M1Before.java" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/src/lambda/ex1/M2After.java" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/src/lambda/ex1/M2Before.java" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/src/lambda/ex1/M3MeasureTime.java" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/src/lambda/ex1/M4MeasureTime.java" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--    </list>
+-+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="lambda ex1" />
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-@@ -225,14 +217,23 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1743737856207</updated>
+-     </task>
+--    <option name="localTasksCounter" value="8" />
+-+    <task id="LOCAL-00008" summary="lambda ex1">
+-+      <option name="closed" value="true" />
+-+      <created>1743741343887</created>
+-+      <option name="number" value="00008" />
+-+      <option name="presentableId" value="LOCAL-00008" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1743741343887</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="9" />
+-     <servers />
+-   </component>
+-   <component name="VcsManagerConfiguration">
+-     <MESSAGE value="FunctionalInterface" />
+-     <MESSAGE value="lambda single expression" />
+-     <MESSAGE value="lambda" />
+--    <option name="LAST_COMMIT_MESSAGE" value="lambda" />
+-+    <MESSAGE value="lambda ex1" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="lambda ex1" />
+-   </component>
+-   <component name="XDebuggerManager">
+-     <breakpoint-manager>
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_2025-04-04__11_17__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-04__11_17__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-04__11_17__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-04__11_17__Changes_.xml	(revision ba9797603d681defab941a3f40ddd0e6d0e0d155)
++++ /dev/null	(revision ba9797603d681defab941a3f40ddd0e6d0e0d155)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_2025-04-04_오후_11_17_[Changes]" date="1743776266722" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-04_오후_11_17_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2025-04-04 오후 11:17 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_2025-04-03__11_34__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-03__11_34__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-03__11_34__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-03__11_34__Changes_.xml	(revision ba9797603d681defab941a3f40ddd0e6d0e0d155)
++++ /dev/null	(revision ba9797603d681defab941a3f40ddd0e6d0e0d155)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_2025-04-03_오후_11_34_[Changes]" date="1743690898849" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-03_오후_11_34_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2025-04-03 오후 11:34 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"381b8d63-3c0a-4a2b-b7ae-8f667079278f\" name=\"Changes\" comment=\"stream API\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/stream/basic/LazyEvalMain2.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 4\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2vCXw1Sjio8RBs0KFIkHwABtixa\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.BiMain.executor\": \"Run\",\r\n    \"Application.BuildGreeterExample.executor\": \"Run\",\r\n    \"Application.CaptureMain.executor\": \"Run\",\r\n    \"Application.ComposeExample.executor\": \"Run\",\r\n    \"Application.ComposeExampleEx1.executor\": \"Run\",\r\n    \"Application.DuplicateExecutionMain.executor\": \"Run\",\r\n    \"Application.Ex0RefMain.executor\": \"Run\",\r\n    \"Application.Ex1Main.executor\": \"Run\",\r\n    \"Application.Ex1RefMainV1.executor\": \"Run\",\r\n    \"Application.Ex1RefMainV2.executor\": \"Run\",\r\n    \"Application.Ex1RefMainV3.executor\": \"Run\",\r\n    \"Application.Ex1RefMainV4.executor\": \"Run\",\r\n    \"Application.FilterExample.executor\": \"Run\",\r\n    \"Application.FilterExampleEx1 (1).executor\": \"Run\",\r\n    \"Application.FilterExampleEx1.executor\": \"Run\",\r\n    \"Application.FilterExampleEx2.executor\": \"Run\",\r\n    \"Application.FilterExampleEx3.executor\": \"Run\",\r\n    \"Application.FilterMainV1.executor\": \"Run\",\r\n    \"Application.FilterMainV2.executor\": \"Run\",\r\n    \"Application.ImmutableMain.executor\": \"Run\",\r\n    \"Application.LazyEvalMain1.executor\": \"Run\",\r\n    \"Application.LazyEvalMain2.executor\": \"Run\",\r\n    \"Application.M5Return.executor\": \"Run\",\r\n    \"Application.MapExample.executor\": \"Run\",\r\n    \"Application.MethodRefEx1.executor\": \"Run\",\r\n    \"Application.MethodRefEx2.executor\": \"Run\",\r\n    \"Application.MethodRefEx3.executor\": \"Run\",\r\n    \"Application.MethodRefEx4.executor\": \"Run\",\r\n    \"Application.MethodRefEx5.executor\": \"Run\",\r\n    \"Application.MethodRefEx6.executor\": \"Run\",\r\n    \"Application.MethodRefStartV1.executor\": \"Run\",\r\n    \"Application.MethodRefStartV2.executor\": \"Run\",\r\n    \"Application.MethodRefStartV3.executor\": \"Run\",\r\n    \"Application.MyFunctionMain1.executor\": \"Run\",\r\n    \"Application.OuterMain.executor\": \"Run\",\r\n    \"Application.PrimitiveFunction.executor\": \"Run\",\r\n    \"Application.ProcedureMain1.executor\": \"Run\",\r\n    \"Application.ProcedureMain2.executor\": \"Run\",\r\n    \"Application.ReduceExample.executor\": \"Run\",\r\n    \"Application.StreamStartMain.executor\": \"Run\",\r\n    \"Application.TriMain.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"onboarding.tips.debug.path\": \"C:/Users/gurwl/java_practice/java-adv3/src/Main.java\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"stream.basic\" />\r\n      <recent name=\"methodref\" />\r\n      <recent name=\"methodref.start\" />\r\n      <recent name=\"lambda.lambda5.filter\" />\r\n      <recent name=\"lambda.ex3\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.LazyEvalMain3\">\r\n    <configuration name=\"DuplicateExecutionMain\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"stream.basic.DuplicateExecutionMain\" />\r\n      <module name=\"java-adv3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"stream.basic.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ImmutableMain\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"stream.basic.ImmutableMain\" />\r\n      <module name=\"java-adv3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"stream.basic.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"LazyEvalMain1\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"stream.basic.LazyEvalMain1\" />\r\n      <module name=\"java-adv3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"stream.basic.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"LazyEvalMain2\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"stream.basic.LazyEvalMain2\" />\r\n      <module name=\"java-adv3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"stream.basic.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"LazyEvalMain3\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"stream.basic.LazyEvalMain3\" />\r\n      <module name=\"java-adv3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"stream.basic.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.LazyEvalMain3\" />\r\n        <item itemvalue=\"Application.LazyEvalMain2\" />\r\n        <item itemvalue=\"Application.LazyEvalMain1\" />\r\n        <item itemvalue=\"Application.DuplicateExecutionMain\" />\r\n        <item itemvalue=\"Application.ImmutableMain\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"381b8d63-3c0a-4a2b-b7ae-8f667079278f\" name=\"Changes\" comment=\"\" />\r\n      <created>1743650265160</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1743650265160</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"lambda start\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743662021702</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743662021702</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"lambda start\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743662927093</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743662927093</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"lambda ex1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743746571847</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743746571847</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"lambda ex2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743748053972</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743748053972</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"etc functionInterface\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743834974502</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743834974502</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"functionInterface ex3\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743835390910</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743835390910</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"functionInterface ex3\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743835558826</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743835558826</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"filter\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743846633854</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743846633854</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"anonymous vs lambda this scope\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744102310367</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744102310368</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"anonymous vs lambda capture\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744102470718</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744102470718</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"methodRef\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744104182667</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744104182667</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"methodRef\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744105608939</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744105608939</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"methodRef\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744106260482</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744106260482</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"methodRef\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744190437830</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744190437830</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"methodRef\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744191272561</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744191272561</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"methodRef and stream\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744191775106</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744191775106</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"methodRef and stream\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744192188254</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744192188254</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"stream API\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744274255668</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744274255668</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"stream API\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744274927297</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744274927297</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"stream API\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744276118134</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744276118134</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"21\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"lambda start\" />\r\n    <MESSAGE value=\"lambda ex1\" />\r\n    <MESSAGE value=\"lambda ex2\" />\r\n    <MESSAGE value=\"etc functionInterface\" />\r\n    <MESSAGE value=\"functionInterface ex3\" />\r\n    <MESSAGE value=\"filter\" />\r\n    <MESSAGE value=\"anonymous vs lambda this scope\" />\r\n    <MESSAGE value=\"anonymous vs lambda capture\" />\r\n    <MESSAGE value=\"methodRef\" />\r\n    <MESSAGE value=\"methodRef and stream\" />\r\n    <MESSAGE value=\"stream API\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"stream API\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/Main.java</url>\r\n          <line>11</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision ba9797603d681defab941a3f40ddd0e6d0e0d155)
++++ b/.idea/workspace.xml	(date 1744281391563)
+@@ -4,8 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="stream API">
+-      <change afterPath="$PROJECT_DIR$/src/stream/basic/LazyEvalMain2.java" afterDir="false" />
++    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="methodRef and stream">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -24,6 +23,18 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
++  "lastFilter": {
++    "state": "OPEN",
++    "assignee": "onepunchkim"
++  }
++}]]></component>
++  <component name="GithubPullRequestsUISettings"><![CDATA[{
++  "selectedUrlAndAccountId": {
++    "url": "https://github.com/onepunchkim/java_adv3.git",
++    "accountId": "c350b8e6-b95a-4737-a64f-597c4d1ca9e2"
++  }
++}]]></component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 4
+ }</component>
+@@ -34,73 +45,67 @@
+   <component name="ProjectViewState">
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Application.BiMain.executor": "Run",
+-    "Application.BuildGreeterExample.executor": "Run",
+-    "Application.CaptureMain.executor": "Run",
+-    "Application.ComposeExample.executor": "Run",
+-    "Application.ComposeExampleEx1.executor": "Run",
+-    "Application.DuplicateExecutionMain.executor": "Run",
+-    "Application.Ex0RefMain.executor": "Run",
+-    "Application.Ex1Main.executor": "Run",
+-    "Application.Ex1RefMainV1.executor": "Run",
+-    "Application.Ex1RefMainV2.executor": "Run",
+-    "Application.Ex1RefMainV3.executor": "Run",
+-    "Application.Ex1RefMainV4.executor": "Run",
+-    "Application.FilterExample.executor": "Run",
+-    "Application.FilterExampleEx1 (1).executor": "Run",
+-    "Application.FilterExampleEx1.executor": "Run",
+-    "Application.FilterExampleEx2.executor": "Run",
+-    "Application.FilterExampleEx3.executor": "Run",
+-    "Application.FilterMainV1.executor": "Run",
+-    "Application.FilterMainV2.executor": "Run",
+-    "Application.ImmutableMain.executor": "Run",
+-    "Application.LazyEvalMain1.executor": "Run",
+-    "Application.LazyEvalMain2.executor": "Run",
+-    "Application.M5Return.executor": "Run",
+-    "Application.MapExample.executor": "Run",
+-    "Application.MethodRefEx1.executor": "Run",
+-    "Application.MethodRefEx2.executor": "Run",
+-    "Application.MethodRefEx3.executor": "Run",
+-    "Application.MethodRefEx4.executor": "Run",
+-    "Application.MethodRefEx5.executor": "Run",
+-    "Application.MethodRefEx6.executor": "Run",
+-    "Application.MethodRefStartV1.executor": "Run",
+-    "Application.MethodRefStartV2.executor": "Run",
+-    "Application.MethodRefStartV3.executor": "Run",
+-    "Application.MyFunctionMain1.executor": "Run",
+-    "Application.OuterMain.executor": "Run",
+-    "Application.PrimitiveFunction.executor": "Run",
+-    "Application.ProcedureMain1.executor": "Run",
+-    "Application.ProcedureMain2.executor": "Run",
+-    "Application.ReduceExample.executor": "Run",
+-    "Application.StreamStartMain.executor": "Run",
+-    "Application.TriMain.executor": "Run",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "master",
+-    "kotlin-language-version-configured": "true",
+-    "onboarding.tips.debug.path": "C:/Users/gurwl/java_practice/java-adv3/src/Main.java"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Application.BiMain.executor&quot;: &quot;Run&quot;,
++    &quot;Application.BuildGreeterExample.executor&quot;: &quot;Run&quot;,
++    &quot;Application.CaptureMain.executor&quot;: &quot;Run&quot;,
++    &quot;Application.ComposeExample.executor&quot;: &quot;Run&quot;,
++    &quot;Application.ComposeExampleEx1.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Ex0RefMain.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Ex1Main.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Ex1RefMainV1.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Ex1RefMainV2.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Ex1RefMainV3.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Ex1RefMainV4.executor&quot;: &quot;Run&quot;,
++    &quot;Application.FilterExample.executor&quot;: &quot;Run&quot;,
++    &quot;Application.FilterExampleEx1 (1).executor&quot;: &quot;Run&quot;,
++    &quot;Application.FilterExampleEx1.executor&quot;: &quot;Run&quot;,
++    &quot;Application.FilterExampleEx2.executor&quot;: &quot;Run&quot;,
++    &quot;Application.FilterExampleEx3.executor&quot;: &quot;Run&quot;,
++    &quot;Application.FilterMainV1.executor&quot;: &quot;Run&quot;,
++    &quot;Application.FilterMainV2.executor&quot;: &quot;Run&quot;,
++    &quot;Application.M5Return.executor&quot;: &quot;Run&quot;,
++    &quot;Application.MapExample.executor&quot;: &quot;Run&quot;,
++    &quot;Application.MethodRefEx1.executor&quot;: &quot;Run&quot;,
++    &quot;Application.MethodRefEx2.executor&quot;: &quot;Run&quot;,
++    &quot;Application.MethodRefEx3.executor&quot;: &quot;Run&quot;,
++    &quot;Application.MethodRefEx4.executor&quot;: &quot;Run&quot;,
++    &quot;Application.MethodRefEx5.executor&quot;: &quot;Run&quot;,
++    &quot;Application.MethodRefStartV1.executor&quot;: &quot;Run&quot;,
++    &quot;Application.MethodRefStartV2.executor&quot;: &quot;Run&quot;,
++    &quot;Application.MethodRefStartV3.executor&quot;: &quot;Run&quot;,
++    &quot;Application.MyFunctionMain1.executor&quot;: &quot;Run&quot;,
++    &quot;Application.OuterMain.executor&quot;: &quot;Run&quot;,
++    &quot;Application.PrimitiveFunction.executor&quot;: &quot;Run&quot;,
++    &quot;Application.ProcedureMain1.executor&quot;: &quot;Run&quot;,
++    &quot;Application.ProcedureMain2.executor&quot;: &quot;Run&quot;,
++    &quot;Application.ReduceExample.executor&quot;: &quot;Run&quot;,
++    &quot;Application.TriMain.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/gurwl/java_practice/java-adv3/src/Main.java&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyClassDialog.RECENTS_KEY">
+-      <recent name="stream.basic" />
+       <recent name="methodref" />
+       <recent name="methodref.start" />
+       <recent name="lambda.lambda5.filter" />
+       <recent name="lambda.ex3" />
++      <recent name="lambda.ex2" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.LazyEvalMain3">
+-    <configuration name="DuplicateExecutionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="stream.basic.DuplicateExecutionMain" />
++  <component name="RunManager" selected="Application.MethodRefEx6">
++    <configuration name="MethodRefEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="methodref.MethodRefEx2" />
+       <module name="java-adv3" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="stream.basic.*" />
++          <option name="PATTERN" value="methodref.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -108,12 +113,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="ImmutableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="stream.basic.ImmutableMain" />
++    <configuration name="MethodRefEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="methodref.MethodRefEx3" />
+       <module name="java-adv3" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="stream.basic.*" />
++          <option name="PATTERN" value="methodref.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -121,12 +126,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="LazyEvalMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="stream.basic.LazyEvalMain1" />
++    <configuration name="MethodRefEx4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="methodref.MethodRefEx4" />
+       <module name="java-adv3" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="stream.basic.*" />
++          <option name="PATTERN" value="methodref.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -134,12 +139,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="LazyEvalMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="stream.basic.LazyEvalMain2" />
++    <configuration name="MethodRefEx5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="methodref.MethodRefEx5" />
+       <module name="java-adv3" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="stream.basic.*" />
++          <option name="PATTERN" value="methodref.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -147,12 +152,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="LazyEvalMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="stream.basic.LazyEvalMain3" />
++    <configuration name="MethodRefEx6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="methodref.MethodRefEx6" />
+       <module name="java-adv3" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="stream.basic.*" />
++          <option name="PATTERN" value="methodref.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -162,21 +167,14 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.LazyEvalMain3" />
+-        <item itemvalue="Application.LazyEvalMain2" />
+-        <item itemvalue="Application.LazyEvalMain1" />
+-        <item itemvalue="Application.DuplicateExecutionMain" />
+-        <item itemvalue="Application.ImmutableMain" />
++        <item itemvalue="Application.MethodRefEx6" />
++        <item itemvalue="Application.MethodRefEx5" />
++        <item itemvalue="Application.MethodRefEx4" />
++        <item itemvalue="Application.MethodRefEx3" />
++        <item itemvalue="Application.MethodRefEx2" />
+       </list>
+     </recent_temporary>
+   </component>
+-  <component name="SharedIndexes">
+-    <attachedChunks>
+-      <set>
+-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+-      </set>
+-    </attachedChunks>
+-  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -314,39 +312,7 @@
+       <option name="project" value="LOCAL" />
+       <updated>1744191775106</updated>
+     </task>
+-    <task id="LOCAL-00017" summary="methodRef and stream">
+-      <option name="closed" value="true" />
+-      <created>1744192188254</created>
+-      <option name="number" value="00017" />
+-      <option name="presentableId" value="LOCAL-00017" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1744192188254</updated>
+-    </task>
+-    <task id="LOCAL-00018" summary="stream API">
+-      <option name="closed" value="true" />
+-      <created>1744274255668</created>
+-      <option name="number" value="00018" />
+-      <option name="presentableId" value="LOCAL-00018" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1744274255668</updated>
+-    </task>
+-    <task id="LOCAL-00019" summary="stream API">
+-      <option name="closed" value="true" />
+-      <created>1744274927297</created>
+-      <option name="number" value="00019" />
+-      <option name="presentableId" value="LOCAL-00019" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1744274927297</updated>
+-    </task>
+-    <task id="LOCAL-00020" summary="stream API">
+-      <option name="closed" value="true" />
+-      <created>1744276118134</created>
+-      <option name="number" value="00020" />
+-      <option name="presentableId" value="LOCAL-00020" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1744276118134</updated>
+-    </task>
+-    <option name="localTasksCounter" value="21" />
++    <option name="localTasksCounter" value="17" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+@@ -360,8 +326,7 @@
+     <MESSAGE value="anonymous vs lambda capture" />
+     <MESSAGE value="methodRef" />
+     <MESSAGE value="methodRef and stream" />
+-    <MESSAGE value="stream API" />
+-    <option name="LAST_COMMIT_MESSAGE" value="stream API" />
++    <option name="LAST_COMMIT_MESSAGE" value="methodRef and stream" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
