@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="primitive Stream" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="primitive Stream">
+      <change afterPath="$PROJECT_DIR$/src/stream/collectors/Collectors1Basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/collectors/Collectors2Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +40,8 @@
     "Application.BiMain.executor": "Run",
     "Application.BuildGreeterExample.executor": "Run",
     "Application.CaptureMain.executor": "Run",
+    "Application.Collectors1Basic.executor": "Run",
+    "Application.Collectors2Map.executor": "Run",
     "Application.ComposeExample.executor": "Run",
     "Application.ComposeExampleEx1.executor": "Run",
     "Application.DuplicateExecutionMain.executor": "Run",
@@ -95,13 +101,13 @@
       <recent name="lambda.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrimitiveStreamMain">
-    <configuration name="LazyEvalMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.basic.LazyEvalMain3" />
+  <component name="RunManager" selected="Application.Collectors2Map">
+    <configuration name="Collectors1Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.collectors.Collectors1Basic" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.basic.*" />
+          <option name="PATTERN" value="stream.collectors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapVsFlatMapMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.operation.MapVsFlatMapMain" />
+    <configuration name="Collectors2Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.collectors.Collectors2Map" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.operation.*" />
+          <option name="PATTERN" value="stream.collectors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Collectors2Map" />
+        <item itemvalue="Application.Collectors1Basic" />
         <item itemvalue="Application.PrimitiveStreamMain" />
         <item itemvalue="Application.TerminalOperationsMain" />
         <item itemvalue="Application.OptionalSimpleMain" />
-        <item itemvalue="Application.MapVsFlatMapMain" />
-        <item itemvalue="Application.LazyEvalMain3" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744428544609</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="primitive Stream">
+      <option name="closed" value="true" />
+      <created>1744428580958</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1744428580958</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
