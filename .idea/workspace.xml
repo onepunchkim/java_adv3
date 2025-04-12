@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="flatMap">
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="optional">
+      <change afterPath="$PROJECT_DIR$/src/stream/operation/TerminalOperationsMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,12 +71,14 @@
     "Application.MethodRefStartV2.executor": "Run",
     "Application.MethodRefStartV3.executor": "Run",
     "Application.MyFunctionMain1.executor": "Run",
+    "Application.OptionalSimpleMain.executor": "Run",
     "Application.OuterMain.executor": "Run",
     "Application.PrimitiveFunction.executor": "Run",
     "Application.ProcedureMain1.executor": "Run",
     "Application.ProcedureMain2.executor": "Run",
     "Application.ReduceExample.executor": "Run",
     "Application.StreamStartMain.executor": "Run",
+    "Application.TerminalOperationsMain.executor": "Run",
     "Application.TriMain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -94,20 +97,7 @@
       <recent name="lambda.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OptionalSimpleMain">
-    <configuration name="LazyEvalMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.basic.LazyEvalMain1" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TerminalOperationsMain">
     <configuration name="LazyEvalMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.basic.LazyEvalMain2" />
       <module name="java-adv3" />
@@ -160,13 +150,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TerminalOperationsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.operation.TerminalOperationsMain" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.operation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TerminalOperationsMain" />
         <item itemvalue="Application.OptionalSimpleMain" />
         <item itemvalue="Application.MapVsFlatMapMain" />
         <item itemvalue="Application.LazyEvalMain3" />
         <item itemvalue="Application.LazyEvalMain2" />
-        <item itemvalue="Application.LazyEvalMain1" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +357,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744424089055</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="optional">
+      <option name="closed" value="true" />
+      <created>1744426268939</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1744426268939</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -370,7 +381,8 @@
     <MESSAGE value="methodRef and stream" />
     <MESSAGE value="stream API" />
     <MESSAGE value="flatMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="flatMap" />
+    <MESSAGE value="optional" />
+    <option name="LAST_COMMIT_MESSAGE" value="optional" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
