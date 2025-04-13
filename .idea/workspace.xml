@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="stream">
-      <change afterPath="$PROJECT_DIR$/src/stream/collectors/Collectors3Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/collectors/Collectors4MinMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/collectors/Collectors4Summing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/collectors/Collectors5Reducing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-05__3_11__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-05__7_25__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-05__7_25__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-05_오후_3_11_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-08__11_12__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-08__11_12__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-09__11_48__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-09__11_48__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-10__7_36__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-10__7_36__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-12__10_25__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-12__10_25__Changes_.xml" afterDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="collectors">
+      <change afterPath="$PROJECT_DIR$/src/stream/collectors/DownStreamMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/collectors/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-05__7_25__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-05_오후_7_25_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,9 +45,11 @@
     "Application.Collectors3Group.executor": "Run",
     "Application.Collectors4MinMax.executor": "Run",
     "Application.Collectors4Summing.executor": "Run",
+    "Application.Collectors5Reducing.executor": "Run",
     "Application.ComposeExample.executor": "Run",
     "Application.ComposeExampleEx1.executor": "Run",
     "Application.CreateStreamMain.executor": "Run",
+    "Application.DownStreamMain1.executor": "Run",
     "Application.DuplicateExecutionMain.executor": "Run",
     "Application.Ex0RefMain.executor": "Run",
     "Application.Ex1Main.executor": "Run",
@@ -110,7 +105,7 @@
       <recent name="lambda.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Collectors5Reducing">
+  <component name="RunManager" selected="Application.DownStreamMain1">
     <configuration name="Collectors3Group" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.collectors.Collectors3Group" />
       <module name="java-adv3" />
@@ -163,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntermediateOperationMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.operation.IntermediateOperationMain" />
+    <configuration name="DownStreamMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.collectors.DownStreamMain1" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.operation.*" />
+          <option name="PATTERN" value="stream.collectors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DownStreamMain1" />
         <item itemvalue="Application.Collectors5Reducing" />
         <item itemvalue="Application.Collectors4Summing" />
         <item itemvalue="Application.Collectors4MinMax" />
         <item itemvalue="Application.Collectors3Group" />
-        <item itemvalue="Application.IntermediateOperationMain" />
       </list>
     </recent_temporary>
   </component>
@@ -378,7 +373,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744363750312</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="collectors">
+      <option name="closed" value="true" />
+      <created>1744450393964</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1744450393964</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -394,7 +397,8 @@
     <MESSAGE value="methodRef and stream" />
     <MESSAGE value="stream API" />
     <MESSAGE value="stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="stream" />
+    <MESSAGE value="collectors" />
+    <option name="LAST_COMMIT_MESSAGE" value="collectors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
