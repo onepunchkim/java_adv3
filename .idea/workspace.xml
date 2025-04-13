@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="collectors">
-      <change afterPath="$PROJECT_DIR$/src/stream/collectors/DownStreamMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/collectors/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-05__7_25__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-05_오후_7_25_[Changes]/shelved.patch" beforeDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="down Stream Collectors">
+      <change afterPath="$PROJECT_DIR$/src/stream/collectors/DownStreamMain2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +47,7 @@
     "Application.ComposeExampleEx1.executor": "Run",
     "Application.CreateStreamMain.executor": "Run",
     "Application.DownStreamMain1.executor": "Run",
+    "Application.DownStreamMain2.executor": "Run",
     "Application.DuplicateExecutionMain.executor": "Run",
     "Application.Ex0RefMain.executor": "Run",
     "Application.Ex1Main.executor": "Run",
@@ -105,20 +103,7 @@
       <recent name="lambda.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DownStreamMain1">
-    <configuration name="Collectors3Group" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.collectors.Collectors3Group" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.collectors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.DownStreamMain2">
     <configuration name="Collectors4MinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.collectors.Collectors4MinMax" />
       <module name="java-adv3" />
@@ -171,13 +156,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DownStreamMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.collectors.DownStreamMain2" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.collectors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DownStreamMain2" />
         <item itemvalue="Application.DownStreamMain1" />
         <item itemvalue="Application.Collectors5Reducing" />
         <item itemvalue="Application.Collectors4Summing" />
         <item itemvalue="Application.Collectors4MinMax" />
-        <item itemvalue="Application.Collectors3Group" />
       </list>
     </recent_temporary>
   </component>
@@ -381,7 +379,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744450393964</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="down Stream Collectors">
+      <option name="closed" value="true" />
+      <created>1744529973409</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1744529973410</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -398,7 +404,8 @@
     <MESSAGE value="stream API" />
     <MESSAGE value="stream" />
     <MESSAGE value="collectors" />
-    <option name="LAST_COMMIT_MESSAGE" value="collectors" />
+    <MESSAGE value="down Stream Collectors" />
+    <option name="LAST_COMMIT_MESSAGE" value="down Stream Collectors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
