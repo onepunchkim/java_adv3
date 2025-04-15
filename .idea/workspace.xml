@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="primitive Stream">
-      <change afterPath="$PROJECT_DIR$/src/optional/OptionalCreationMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/optional/OptionalRetrievalMain.java" afterDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="optional">
+      <change afterPath="$PROJECT_DIR$/src/optional/OptionalProcessingMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,6 +86,7 @@
     "Application.MethodRefStartV3.executor": "Run",
     "Application.MyFunctionMain1.executor": "Run",
     "Application.OptionalCreationMain.executor": "Run",
+    "Application.OptionalProcessingMain.executor": "Run",
     "Application.OptionalRetrievalMain.executor": "Run",
     "Application.OptionalSimpleMain.executor": "Run",
     "Application.OptionalStartMain2.executor": "Run",
@@ -117,20 +117,7 @@
       <recent name="lambda.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OptionalRetrievalMain">
-    <configuration name="Collectors1Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.collectors.Collectors1Basic" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.collectors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.OptionalProcessingMain">
     <configuration name="Collectors2Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.collectors.Collectors2Map" />
       <module name="java-adv3" />
@@ -146,6 +133,19 @@
     </configuration>
     <configuration name="OptionalCreationMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="optional.OptionalCreationMain" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="optional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalProcessingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optional.OptionalProcessingMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
@@ -185,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OptionalProcessingMain" />
         <item itemvalue="Application.OptionalRetrievalMain" />
         <item itemvalue="Application.OptionalCreationMain" />
         <item itemvalue="Application.OptionalStartMain2" />
         <item itemvalue="Application.Collectors2Map" />
-        <item itemvalue="Application.Collectors1Basic" />
       </list>
     </recent_temporary>
   </component>
@@ -402,7 +402,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744428580958</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="optional">
+      <option name="closed" value="true" />
+      <created>1744715342743</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1744715342743</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -418,10 +426,10 @@
     <MESSAGE value="methodRef and stream" />
     <MESSAGE value="stream API" />
     <MESSAGE value="flatMap" />
-    <MESSAGE value="optional" />
     <MESSAGE value="terminal Operation" />
     <MESSAGE value="primitive Stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="primitive Stream" />
+    <MESSAGE value="optional" />
+    <option name="LAST_COMMIT_MESSAGE" value="optional" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
