@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="optional">
-      <change afterPath="$PROJECT_DIR$/src/optional/logger/LogMain3.java" afterDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="down Stream Collectors">
+      <change afterPath="$PROJECT_DIR$/src/optional/OrElseGetMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optional/logger/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optional/logger/Logger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,18 +24,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;onepunchkim&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/onepunchkim/java_adv3.git&quot;,
-    &quot;accountId&quot;: &quot;c350b8e6-b95a-4737-a64f-597c4d1ca9e2&quot;
-  }
-}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -52,10 +39,15 @@
     "Application.BiMain.executor": "Run",
     "Application.BuildGreeterExample.executor": "Run",
     "Application.CaptureMain.executor": "Run",
-    "Application.Collectors1Basic.executor": "Run",
-    "Application.Collectors2Map.executor": "Run",
+    "Application.Collectors3Group.executor": "Run",
+    "Application.Collectors4MinMax.executor": "Run",
+    "Application.Collectors4Summing.executor": "Run",
+    "Application.Collectors5Reducing.executor": "Run",
     "Application.ComposeExample.executor": "Run",
     "Application.ComposeExampleEx1.executor": "Run",
+    "Application.CreateStreamMain.executor": "Run",
+    "Application.DownStreamMain1.executor": "Run",
+    "Application.DownStreamMain2.executor": "Run",
     "Application.DuplicateExecutionMain.executor": "Run",
     "Application.Ex0RefMain.executor": "Run",
     "Application.Ex1Main.executor": "Run",
@@ -71,14 +63,13 @@
     "Application.FilterMainV1.executor": "Run",
     "Application.FilterMainV2.executor": "Run",
     "Application.ImmutableMain.executor": "Run",
+    "Application.IntermediateOperationMain.executor": "Run",
     "Application.LazyEvalMain1.executor": "Run",
     "Application.LazyEvalMain2.executor": "Run",
-    "Application.LogMain1.executor": "Run",
-    "Application.LogMain2.executor": "Run",
+    "Application.LazyEvalMain3.executor": "Run",
     "Application.LogMain3.executor": "Run",
     "Application.M5Return.executor": "Run",
     "Application.MapExample.executor": "Run",
-    "Application.MapVsFlatMapMain.executor": "Run",
     "Application.MethodRefEx1.executor": "Run",
     "Application.MethodRefEx2.executor": "Run",
     "Application.MethodRefEx3.executor": "Run",
@@ -89,23 +80,18 @@
     "Application.MethodRefStartV2.executor": "Run",
     "Application.MethodRefStartV3.executor": "Run",
     "Application.MyFunctionMain1.executor": "Run",
-    "Application.OptionalCreationMain.executor": "Run",
-    "Application.OptionalProcessingMain.executor": "Run",
-    "Application.OptionalRetrievalMain.executor": "Run",
-    "Application.OptionalSimpleMain.executor": "Run",
+    "Application.OptionalStartMain1.executor": "Run",
     "Application.OptionalStartMain2.executor": "Run",
+    "Application.OrElseGetMain.executor": "Run",
     "Application.OuterMain.executor": "Run",
     "Application.PrimitiveFunction.executor": "Run",
-    "Application.PrimitiveStreamMain.executor": "Run",
     "Application.ProcedureMain1.executor": "Run",
     "Application.ProcedureMain2.executor": "Run",
     "Application.ReduceExample.executor": "Run",
     "Application.StreamStartMain.executor": "Run",
-    "Application.TerminalOperationsMain.executor": "Run",
     "Application.TriMain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -114,33 +100,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="optional.logger" />
+      <recent name="optional" />
       <recent name="stream.basic" />
       <recent name="methodref" />
       <recent name="methodref.start" />
       <recent name="lambda.lambda5.filter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LogMain3">
-    <configuration name="LogMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="optional.logger.LogMain1" />
+  <component name="RunManager" selected="Application.OrElseGetMain">
+    <configuration name="DownStreamMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.collectors.DownStreamMain2" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="optional.logger.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="optional.logger.LogMain2" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="optional.logger.*" />
+          <option name="PATTERN" value="stream.collectors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalProcessingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="optional.OptionalProcessingMain" />
+    <configuration name="OptionalStartMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optional.OptionalStartMain1" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
@@ -174,8 +147,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalRetrievalMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="optional.OptionalRetrievalMain" />
+    <configuration name="OptionalStartMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optional.OptionalStartMain2" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="optional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrElseGetMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optional.OrElseGetMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
@@ -189,13 +175,20 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrElseGetMain" />
         <item itemvalue="Application.LogMain3" />
-        <item itemvalue="Application.LogMain2" />
-        <item itemvalue="Application.LogMain1" />
-        <item itemvalue="Application.OptionalProcessingMain" />
-        <item itemvalue="Application.OptionalRetrievalMain" />
+        <item itemvalue="Application.OptionalStartMain2" />
+        <item itemvalue="Application.OptionalStartMain1" />
+        <item itemvalue="Application.DownStreamMain2" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -366,71 +359,47 @@
       <option name="project" value="LOCAL" />
       <updated>1744276118134</updated>
     </task>
-    <task id="LOCAL-00021" summary="flatMap">
+    <task id="LOCAL-00021" summary="stream API">
       <option name="closed" value="true" />
-      <created>1744424089055</created>
+      <created>1744276976951</created>
       <option name="number" value="00021" />
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
-      <updated>1744424089055</updated>
+      <updated>1744276976951</updated>
     </task>
-    <task id="LOCAL-00022" summary="optional">
+    <task id="LOCAL-00022" summary="stream">
       <option name="closed" value="true" />
-      <created>1744426268939</created>
+      <created>1744363750312</created>
       <option name="number" value="00022" />
       <option name="presentableId" value="LOCAL-00022" />
       <option name="project" value="LOCAL" />
-      <updated>1744426268939</updated>
+      <updated>1744363750312</updated>
     </task>
-    <task id="LOCAL-00023" summary="terminal Operation">
+    <task id="LOCAL-00023" summary="collectors">
       <option name="closed" value="true" />
-      <created>1744427483827</created>
+      <created>1744450393964</created>
       <option name="number" value="00023" />
       <option name="presentableId" value="LOCAL-00023" />
       <option name="project" value="LOCAL" />
-      <updated>1744427483827</updated>
+      <updated>1744450393964</updated>
     </task>
-    <task id="LOCAL-00024" summary="primitive Stream">
+    <task id="LOCAL-00024" summary="down Stream Collectors">
       <option name="closed" value="true" />
-      <created>1744428544609</created>
+      <created>1744529973409</created>
       <option name="number" value="00024" />
       <option name="presentableId" value="LOCAL-00024" />
       <option name="project" value="LOCAL" />
-      <updated>1744428544609</updated>
+      <updated>1744529973410</updated>
     </task>
-    <task id="LOCAL-00025" summary="primitive Stream">
+    <task id="LOCAL-00025" summary="down Stream Collectors">
       <option name="closed" value="true" />
-      <created>1744428580958</created>
+      <created>1744532438272</created>
       <option name="number" value="00025" />
       <option name="presentableId" value="LOCAL-00025" />
       <option name="project" value="LOCAL" />
-      <updated>1744428580958</updated>
+      <updated>1744532438272</updated>
     </task>
-    <task id="LOCAL-00026" summary="optional">
-      <option name="closed" value="true" />
-      <created>1744715342743</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1744715342743</updated>
-    </task>
-    <task id="LOCAL-00027" summary="optional">
-      <option name="closed" value="true" />
-      <created>1744718941612</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1744718941612</updated>
-    </task>
-    <task id="LOCAL-00028" summary="optional">
-      <option name="closed" value="true" />
-      <created>1744776332552</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1744776332552</updated>
-    </task>
-    <option name="localTasksCounter" value="29" />
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -445,11 +414,10 @@
     <MESSAGE value="methodRef" />
     <MESSAGE value="methodRef and stream" />
     <MESSAGE value="stream API" />
-    <MESSAGE value="flatMap" />
-    <MESSAGE value="terminal Operation" />
-    <MESSAGE value="primitive Stream" />
-    <MESSAGE value="optional" />
-    <option name="LAST_COMMIT_MESSAGE" value="optional" />
+    <MESSAGE value="stream" />
+    <MESSAGE value="collectors" />
+    <MESSAGE value="down Stream Collectors" />
+    <option name="LAST_COMMIT_MESSAGE" value="down Stream Collectors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
