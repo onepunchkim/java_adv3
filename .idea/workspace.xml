@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="optional">
-      <change afterPath="$PROJECT_DIR$/src/defaultmethod/ex1/AppPushNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/defaultmethod/ex1/EmailNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/defaultmethod/ex1/Notifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/defaultmethod/ex1/NotifierMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/defaultmethod/ex1/SMSNotifier.java" afterDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="defaultMethod">
+      <change afterPath="$PROJECT_DIR$/src/defaultmethod/ex2/AppPushNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/defaultmethod/ex2/EmailNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/defaultmethod/ex2/Notifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/defaultmethod/ex2/NotifierMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/defaultmethod/ex2/SMSNotifier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +88,7 @@
     "Application.MethodRefStartV3.executor": "Run",
     "Application.MyFunctionMain1.executor": "Run",
     "Application.NotifierMainV1.executor": "Run",
+    "Application.NotifierMainV2.executor": "Run",
     "Application.OptionalStartMain1.executor": "Run",
     "Application.OptionalStartMain2.executor": "Run",
     "Application.OrElseGetMain.executor": "Run",
@@ -103,10 +104,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/gurwl/java_practice/java-adv3/src/defaultmethod/ex2",
     "onboarding.tips.debug.path": "C:/Users/gurwl/java_practice/java-adv3/src/Main.java"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gurwl\java_practice\java-adv3\src\defaultmethod\ex2" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="optional" />
       <recent name="stream.basic" />
@@ -115,7 +120,7 @@
       <recent name="lambda.lambda5.filter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NotifierMainV1">
+  <component name="RunManager" selected="Application.NotifierMainV2">
     <configuration name="AddressMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="optional.AddressMain1" />
       <module name="java-adv3" />
@@ -168,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrElseGetMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="optional.OrElseGetMain" />
+    <configuration name="NotifierMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="defaultmethod.ex2.NotifierMainV2" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="optional.*" />
+          <option name="PATTERN" value="defaultmethod.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NotifierMainV2" />
         <item itemvalue="Application.NotifierMainV1" />
         <item itemvalue="Application.DeliveryMain" />
         <item itemvalue="Application.AddressMain2" />
         <item itemvalue="Application.AddressMain1" />
-        <item itemvalue="Application.OrElseGetMain" />
       </list>
     </recent_temporary>
   </component>
@@ -423,7 +428,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744788804616</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="defaultMethod">
+      <option name="closed" value="true" />
+      <created>1744790279685</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1744790279685</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -442,7 +455,8 @@
     <MESSAGE value="collectors" />
     <MESSAGE value="down Stream Collectors" />
     <MESSAGE value="optional" />
-    <option name="LAST_COMMIT_MESSAGE" value="optional" />
+    <MESSAGE value="defaultMethod" />
+    <option name="LAST_COMMIT_MESSAGE" value="defaultMethod" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
