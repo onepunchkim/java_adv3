@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="optional">
-      <change afterPath="$PROJECT_DIR$/src/optional/OptionalProcessingMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/logger/LogMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/logger/LogMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optional/logger/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-08__11_12__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-08_오후_11_12_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +76,8 @@
     "Application.ImmutableMain.executor": "Run",
     "Application.LazyEvalMain1.executor": "Run",
     "Application.LazyEvalMain2.executor": "Run",
+    "Application.LogMain1.executor": "Run",
+    "Application.LogMain2.executor": "Run",
     "Application.M5Return.executor": "Run",
     "Application.MapExample.executor": "Run",
     "Application.MapVsFlatMapMain.executor": "Run",
@@ -110,20 +116,33 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="optional.logger" />
       <recent name="stream.basic" />
       <recent name="methodref" />
       <recent name="methodref.start" />
       <recent name="lambda.lambda5.filter" />
-      <recent name="lambda.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OptionalProcessingMain">
-    <configuration name="Collectors2Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.collectors.Collectors2Map" />
+  <component name="RunManager" selected="Application.LogMain2">
+    <configuration name="LogMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optional.logger.LogMain1" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.collectors.*" />
+          <option name="PATTERN" value="optional.logger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optional.logger.LogMain2" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="optional.logger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,26 +189,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalStartMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="optional.OptionalStartMain2" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="optional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LogMain2" />
+        <item itemvalue="Application.LogMain1" />
         <item itemvalue="Application.OptionalProcessingMain" />
         <item itemvalue="Application.OptionalRetrievalMain" />
         <item itemvalue="Application.OptionalCreationMain" />
-        <item itemvalue="Application.OptionalStartMain2" />
-        <item itemvalue="Application.Collectors2Map" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +416,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744715342743</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="optional">
+      <option name="closed" value="true" />
+      <created>1744718941612</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1744718941612</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
