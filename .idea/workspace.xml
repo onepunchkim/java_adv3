@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="thread pool">
-      <change afterPath="$PROJECT_DIR$/src/parallel/forkjoin/ForkJoinMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parallel/forkjoin/SumTask.java" afterDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="ForkJoin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parallel/forkjoin/SumTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parallel/forkjoin/SumTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -477,7 +476,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744879102271</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="ForkJoin">
+      <option name="closed" value="true" />
+      <created>1744881536290</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1744881536290</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -500,7 +507,8 @@
     <MESSAGE value="single thread" />
     <MESSAGE value="multi thread" />
     <MESSAGE value="thread pool" />
-    <option name="LAST_COMMIT_MESSAGE" value="thread pool" />
+    <MESSAGE value="ForkJoin" />
+    <option name="LAST_COMMIT_MESSAGE" value="ForkJoin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
