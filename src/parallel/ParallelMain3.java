@@ -27,6 +27,8 @@ public class ParallelMain3 {
         int sum = result1 + result2;
         long endTime = System.currentTimeMillis();
         log("time: " + (endTime - startTime) + "ms, sum: " + sum);
+
+        es.close();
     }
 
     static class SumTask implements Callable<Integer> {
