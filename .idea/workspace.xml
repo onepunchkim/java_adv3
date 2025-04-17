@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="defaultMethod">
-      <change afterPath="$PROJECT_DIR$/src/parallel/HeavyJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parallel/ParallelMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/MyLogger.java" afterDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="single thread">
+      <change afterPath="$PROJECT_DIR$/src/parallel/ParallelMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-09__11_48__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-09_오후_11_48_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,6 +91,8 @@
     "Application.OptionalStartMain2.executor": "Run",
     "Application.OrElseGetMain.executor": "Run",
     "Application.OuterMain.executor": "Run",
+    "Application.ParallelMain1.executor": "Run",
+    "Application.ParallelMain2.executor": "Run",
     "Application.PrimitiveFunction.executor": "Run",
     "Application.ProcedureMain1.executor": "Run",
     "Application.ProcedureMain2.executor": "Run",
@@ -111,27 +113,14 @@
       <recent name="C:\Users\gurwl\java_practice\java-adv3\src\defaultmethod\ex2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="parallel" />
       <recent name="optional" />
       <recent name="stream.basic" />
       <recent name="methodref" />
       <recent name="methodref.start" />
-      <recent name="lambda.lambda5.filter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParallelMain1">
-    <configuration name="AddressMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="optional.AddressMain2" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="optional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ParallelMain2">
     <configuration name="DeliveryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="optional.DeliveryMain" />
       <module name="java-adv3" />
@@ -184,13 +173,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ParallelMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parallel.ParallelMain2" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="parallel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParallelMain2" />
         <item itemvalue="Application.ParallelMain1" />
         <item itemvalue="Application.NotifierMainV2" />
         <item itemvalue="Application.NotifierMainV1" />
         <item itemvalue="Application.DeliveryMain" />
-        <item itemvalue="Application.AddressMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -442,7 +444,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744791326770</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="single thread">
+      <option name="closed" value="true" />
+      <created>1744796774049</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1744796774049</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -462,7 +472,8 @@
     <MESSAGE value="down Stream Collectors" />
     <MESSAGE value="optional" />
     <MESSAGE value="defaultMethod" />
-    <option name="LAST_COMMIT_MESSAGE" value="defaultMethod" />
+    <MESSAGE value="single thread" />
+    <option name="LAST_COMMIT_MESSAGE" value="single thread" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
