@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="defaultMethod">
-      <change afterPath="$PROJECT_DIR$/src/parallel/forkjoin/ForkJoinMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-10__7_36__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-10_오후_7_36_[Changes]/shelved.patch" beforeDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="ForkJoin">
+      <change afterPath="$PROJECT_DIR$/src/parallel/ParallelMain4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-13__7_46__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-13__7_46__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-16__8_35__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-16__8_35__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-17__8_41__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-17__8_41__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,18 +27,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "onepunchkim"
-  }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/onepunchkim/java_adv3.git",
-    "accountId": "c350b8e6-b95a-4737-a64f-597c4d1ca9e2"
-  }
-}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -79,6 +68,7 @@
     "Application.FilterExampleEx3.executor": "Run",
     "Application.FilterMainV1.executor": "Run",
     "Application.FilterMainV2.executor": "Run",
+    "Application.ForkJoinMain1.executor": "Run",
     "Application.ForkJoinMain2.executor": "Run",
     "Application.ImmutableMain.executor": "Run",
     "Application.IntermediateOperationMain.executor": "Run",
@@ -104,6 +94,9 @@
     "Application.OptionalStartMain2.executor": "Run",
     "Application.OrElseGetMain.executor": "Run",
     "Application.OuterMain.executor": "Run",
+    "Application.ParallelMain1.executor": "Run",
+    "Application.ParallelMain2.executor": "Run",
+    "Application.ParallelMain3.executor": "Run",
     "Application.PrimitiveFunction.executor": "Run",
     "Application.ProcedureMain1.executor": "Run",
     "Application.ProcedureMain2.executor": "Run",
@@ -112,7 +105,6 @@
     "Application.TriMain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -125,20 +117,20 @@
       <recent name="C:\Users\gurwl\java_practice\java-adv3\src\defaultmethod\ex2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="parallel.forkjoin" />
+      <recent name="parallel" />
       <recent name="optional" />
       <recent name="stream.basic" />
       <recent name="methodref" />
       <recent name="methodref.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ForkJoinMain2">
-    <configuration name="DeliveryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="optional.DeliveryMain" />
+  <component name="RunManager" selected="Application.ParallelMain4">
+    <configuration name="ForkJoinMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parallel.forkjoin.ForkJoinMain1" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="optional.*" />
+          <option name="PATTERN" value="parallel.forkjoin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotifierMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="defaultmethod.ex1.NotifierMainV1" />
+    <configuration name="ParallelMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parallel.ParallelMain2" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="defaultmethod.ex1.*" />
+          <option name="PATTERN" value="parallel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotifierMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="defaultmethod.ex2.NotifierMainV2" />
+    <configuration name="ParallelMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parallel.ParallelMain3" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="defaultmethod.ex2.*" />
+          <option name="PATTERN" value="parallel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,8 +177,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="parallel.ParallelMain1" />
+    <configuration name="ParallelMain4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parallel.ParallelMain4" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
@@ -200,13 +192,20 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParallelMain4" />
         <item itemvalue="Application.ForkJoinMain2" />
-        <item itemvalue="Application.ParallelMain1" />
-        <item itemvalue="Application.NotifierMainV2" />
-        <item itemvalue="Application.NotifierMainV1" />
-        <item itemvalue="Application.DeliveryMain" />
+        <item itemvalue="Application.ForkJoinMain1" />
+        <item itemvalue="Application.ParallelMain3" />
+        <item itemvalue="Application.ParallelMain2" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -449,7 +448,47 @@
       <option name="project" value="LOCAL" />
       <updated>1744791326770</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="single thread">
+      <option name="closed" value="true" />
+      <created>1744796774049</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1744796774049</updated>
+    </task>
+    <task id="LOCAL-00031" summary="multi thread">
+      <option name="closed" value="true" />
+      <created>1744874985708</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1744874985708</updated>
+    </task>
+    <task id="LOCAL-00032" summary="thread pool">
+      <option name="closed" value="true" />
+      <created>1744876638066</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1744876638066</updated>
+    </task>
+    <task id="LOCAL-00033" summary="thread pool">
+      <option name="closed" value="true" />
+      <created>1744879102271</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1744879102271</updated>
+    </task>
+    <task id="LOCAL-00034" summary="ForkJoin">
+      <option name="closed" value="true" />
+      <created>1744881536290</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1744881536290</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -469,7 +508,11 @@
     <MESSAGE value="down Stream Collectors" />
     <MESSAGE value="optional" />
     <MESSAGE value="defaultMethod" />
-    <option name="LAST_COMMIT_MESSAGE" value="defaultMethod" />
+    <MESSAGE value="single thread" />
+    <MESSAGE value="multi thread" />
+    <MESSAGE value="thread pool" />
+    <MESSAGE value="ForkJoin" />
+    <option name="LAST_COMMIT_MESSAGE" value="ForkJoin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
