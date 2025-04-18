@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="ForkJoin">
-      <change afterPath="$PROJECT_DIR$/src/parallel/ParallelMain4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-13__7_46__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-13__7_46__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-16__8_35__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-16__8_35__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-17__8_41__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-17__8_41__Changes_.xml" afterDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="parallel stream">
+      <change afterPath="$PROJECT_DIR$/src/parallel/ParallelMain5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +94,8 @@
     "Application.ParallelMain1.executor": "Run",
     "Application.ParallelMain2.executor": "Run",
     "Application.ParallelMain3.executor": "Run",
+    "Application.ParallelMain4.executor": "Run",
+    "Application.ParallelMain5.executor": "Run",
     "Application.PrimitiveFunction.executor": "Run",
     "Application.ProcedureMain1.executor": "Run",
     "Application.ProcedureMain2.executor": "Run",
@@ -124,7 +123,7 @@
       <recent name="methodref.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParallelMain4">
+  <component name="RunManager" selected="Application.ParallelMain5">
     <configuration name="ForkJoinMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="parallel.forkjoin.ForkJoinMain1" />
       <module name="java-adv3" />
@@ -144,19 +143,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="parallel.forkjoin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParallelMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="parallel.ParallelMain2" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="parallel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,13 +176,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ParallelMain5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parallel.ParallelMain5" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="parallel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParallelMain5" />
         <item itemvalue="Application.ParallelMain4" />
         <item itemvalue="Application.ForkJoinMain2" />
         <item itemvalue="Application.ForkJoinMain1" />
         <item itemvalue="Application.ParallelMain3" />
-        <item itemvalue="Application.ParallelMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -488,7 +487,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744881536290</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="parallel stream">
+      <option name="closed" value="true" />
+      <created>1744959535813</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1744959535813</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -512,7 +519,8 @@
     <MESSAGE value="multi thread" />
     <MESSAGE value="thread pool" />
     <MESSAGE value="ForkJoin" />
-    <option name="LAST_COMMIT_MESSAGE" value="ForkJoin" />
+    <MESSAGE value="parallel stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="parallel stream" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
