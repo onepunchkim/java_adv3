@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="completableFuture">
-      <change afterPath="$PROJECT_DIR$/src/functional/PureFunctionMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functional/SideEffectListMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functional/SideEffectMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functional/SideEffectMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functional/SideEffectMain3.java" afterDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="functional programming">
+      <change afterPath="$PROJECT_DIR$/src/functional/ImmutableMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functional/ImmutableMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functional/ImmutableMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functional/ImmutablePerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functional/MutablePerson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +73,9 @@
     "Application.ForkJoinMain1.executor": "Run",
     "Application.ForkJoinMain2.executor": "Run",
     "Application.ImmutableMain.executor": "Run",
+    "Application.ImmutableMain1.executor": "Run",
+    "Application.ImmutableMain2.executor": "Run",
+    "Application.ImmutableMain3.executor": "Run",
     "Application.IntermediateOperationMain.executor": "Run",
     "Application.LazyEvalMain1.executor": "Run",
     "Application.LazyEvalMain2.executor": "Run",
@@ -135,9 +138,35 @@
       <recent name="methodref" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SideEffectListMain">
-    <configuration name="PureFunctionMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.PureFunctionMain1" />
+  <component name="RunManager" selected="Application.ImmutableMain3">
+    <configuration name="ImmutableMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.ImmutableMain1" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImmutableMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.ImmutableMain2" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImmutableMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.ImmutableMain3" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
@@ -151,32 +180,6 @@
     </configuration>
     <configuration name="SideEffectListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional.SideEffectListMain" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="functional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SideEffectMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.SideEffectMain1" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="functional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SideEffectMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.SideEffectMain2" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
@@ -203,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ImmutableMain3" />
+        <item itemvalue="Application.ImmutableMain2" />
+        <item itemvalue="Application.ImmutableMain1" />
         <item itemvalue="Application.SideEffectListMain" />
         <item itemvalue="Application.SideEffectMain3" />
-        <item itemvalue="Application.SideEffectMain2" />
-        <item itemvalue="Application.SideEffectMain1" />
-        <item itemvalue="Application.PureFunctionMain1" />
       </list>
     </recent_temporary>
   </component>
@@ -531,7 +534,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745050472954</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="functional programming">
+      <option name="closed" value="true" />
+      <created>1745054666440</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1745054666440</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -557,7 +568,8 @@
     <MESSAGE value="ForkJoin" />
     <MESSAGE value="parallel stream" />
     <MESSAGE value="completableFuture" />
-    <option name="LAST_COMMIT_MESSAGE" value="completableFuture" />
+    <MESSAGE value="functional programming" />
+    <option name="LAST_COMMIT_MESSAGE" value="functional programming" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
