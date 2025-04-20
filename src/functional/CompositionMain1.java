@@ -20,6 +20,6 @@ public class CompositionMain1 {
         //먼저 square 적용 후 add 적용하는 새로운 함수 newFunc2 생성
         //add(square(2)) = add(4) = 5
         Function<Integer, Integer> newFunc2 = square.andThen(add);
-        System.out.println("newFunc2 결과:     " + newFunc2.apply(2));
+        System.out.println("newFunc2 결과: " + newFunc2.apply(2));
     }
 }

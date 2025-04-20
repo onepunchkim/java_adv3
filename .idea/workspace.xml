@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="functional programming immutable">
-      <change afterPath="$PROJECT_DIR$/src/functional/CompositionMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functional/CompositionMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functional/DeclarativeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functional/FirstClassCitizenMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="functional programming">
+      <change beforePath="$PROJECT_DIR$/src/functional/CompositionMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functional/CompositionMain1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +48,7 @@
     "Application.ComposeExample.executor": "Run",
     "Application.ComposeExampleEx1.executor": "Run",
     "Application.CompositionMain1.executor": "Run",
+    "Application.CompositionMain2.executor": "Run",
     "Application.CreateStreamMain.executor": "Run",
     "Application.DeclarativeMain.executor": "Run",
     "Application.DeliveryMain.executor": "Run",
@@ -552,7 +549,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745055853128</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="functional programming">
+      <option name="closed" value="true" />
+      <created>1745135594351</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1745135594351</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -578,9 +583,9 @@
     <MESSAGE value="ForkJoin" />
     <MESSAGE value="parallel stream" />
     <MESSAGE value="completableFuture" />
-    <MESSAGE value="functional programming" />
     <MESSAGE value="functional programming immutable" />
-    <option name="LAST_COMMIT_MESSAGE" value="functional programming immutable" />
+    <MESSAGE value="functional programming" />
+    <option name="LAST_COMMIT_MESSAGE" value="functional programming" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
