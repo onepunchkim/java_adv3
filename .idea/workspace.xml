@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="functional programming">
-      <change afterPath="$PROJECT_DIR$/src/functional/ImmutableMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functional/ImmutableMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functional/ImmutableMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functional/ImmutablePerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functional/MutablePerson.java" afterDir="false" />
+    <list default="true" id="381b8d63-3c0a-4a2b-b7ae-8f667079278f" name="Changes" comment="functional programming immutable">
+      <change afterPath="$PROJECT_DIR$/src/functional/CompositionMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functional/CompositionMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functional/DeclarativeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functional/FirstClassCitizenMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,9 @@
     "Application.CompletableFutureMain.executor": "Run",
     "Application.ComposeExample.executor": "Run",
     "Application.ComposeExampleEx1.executor": "Run",
+    "Application.CompositionMain1.executor": "Run",
     "Application.CreateStreamMain.executor": "Run",
+    "Application.DeclarativeMain.executor": "Run",
     "Application.DeliveryMain.executor": "Run",
     "Application.DownStreamMain1.executor": "Run",
     "Application.DownStreamMain2.executor": "Run",
@@ -70,6 +71,7 @@
     "Application.FilterExampleEx3.executor": "Run",
     "Application.FilterMainV1.executor": "Run",
     "Application.FilterMainV2.executor": "Run",
+    "Application.FirstClassCitizenMain.executor": "Run",
     "Application.ForkJoinMain1.executor": "Run",
     "Application.ForkJoinMain2.executor": "Run",
     "Application.ImmutableMain.executor": "Run",
@@ -138,9 +140,9 @@
       <recent name="methodref" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ImmutableMain3">
-    <configuration name="ImmutableMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.ImmutableMain1" />
+  <component name="RunManager" selected="Application.CompositionMain2">
+    <configuration name="CompositionMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.CompositionMain1" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
@@ -152,8 +154,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImmutableMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.ImmutableMain2" />
+    <configuration name="CompositionMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.CompositionMain2" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeclarativeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.DeclarativeMain" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstClassCitizenMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.FirstClassCitizenMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
@@ -178,39 +206,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SideEffectListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.SideEffectListMain" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="functional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SideEffectMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.SideEffectMain3" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="functional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompositionMain2" />
+        <item itemvalue="Application.CompositionMain1" />
+        <item itemvalue="Application.DeclarativeMain" />
+        <item itemvalue="Application.FirstClassCitizenMain" />
         <item itemvalue="Application.ImmutableMain3" />
-        <item itemvalue="Application.ImmutableMain2" />
-        <item itemvalue="Application.ImmutableMain1" />
-        <item itemvalue="Application.SideEffectListMain" />
-        <item itemvalue="Application.SideEffectMain3" />
       </list>
     </recent_temporary>
   </component>
@@ -542,7 +544,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745054666440</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="functional programming immutable">
+      <option name="closed" value="true" />
+      <created>1745055853128</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1745055853128</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -569,7 +579,8 @@
     <MESSAGE value="parallel stream" />
     <MESSAGE value="completableFuture" />
     <MESSAGE value="functional programming" />
-    <option name="LAST_COMMIT_MESSAGE" value="functional programming" />
+    <MESSAGE value="functional programming immutable" />
+    <option name="LAST_COMMIT_MESSAGE" value="functional programming immutable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
